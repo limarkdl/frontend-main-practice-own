@@ -11,3 +11,11 @@
 
   min-height: 100vh;
 }
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background: var(--bg-color);
+}
