@@ -1,8 +1,8 @@
-import {lazy} from "react";
+import { lazy } from 'react';
 
-export const MainPageAsync = lazy(() => new Promise(resolve => {
+export const MainPageAsync = lazy(() => new Promise((resolve) => {
     // @ts-ignore
-    resolve(import('./MainPage'))
+    resolve(import('./MainPage'));
 }));
 
 // export const MainPageAsync = lazy(() => new Promise(resolve => {
