@@ -3,22 +3,28 @@
     height: var(--navbar-height);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
-    gap: 20px;
     background: var(--inverted-bg-color);
 }
 a {
     text-decoration: none;
 }
 
+.name {
+    font: var(--font-l);
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
 .links {
     display: flex;
-    gap: 20px;
 }
 
 .mainLink {
     font: var(--font-l);
     color: var(--primary-color);
+    margin-right: 20px;
 }
 
 .aboutLink {
