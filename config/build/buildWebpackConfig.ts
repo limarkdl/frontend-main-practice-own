@@ -25,7 +25,7 @@ export function buildWebpackConfig(options: BuildOptions): webpack.Configuration
         devtool: isDevelopment ? 'inline-source-map' : undefined,
         devServer: isDevelopment ? buildDevServer(options) : undefined,
         performance: {
-            hints: 'warning',
+            hints: false,
             maxAssetSize: 500000,
             maxEntrypointSize: 500000,
         },

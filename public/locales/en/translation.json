@@ -2,5 +2,6 @@
   "Language": "EN",
   "MainPage": "Main Page",
   "MainLink": "Main",
-  "AboutLink": "About"
+  "AboutLink": "About",
+  "SidebarToggleBt": "Open sidebar"
 }
