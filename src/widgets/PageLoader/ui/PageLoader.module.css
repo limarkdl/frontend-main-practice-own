@@ -1,0 +1,4 @@
+.pageLoader {
+    @apply flex justify-center 
+        items-center flex-grow;
+}

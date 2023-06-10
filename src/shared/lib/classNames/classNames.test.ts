@@ -1,39 +1,44 @@
 import { classNames } from './classNames';
 
-describe('classNames', () => {
-    test('With first parameter', () => {
-        expect(classNames('someClass')).toBe('someClass');
+describe('classNames function', () => {
+    test('should return a string', () => {
+        expect(typeof classNames('test')).toBe('string');
     });
 
-    test('With additional class', () => {
-        const expected = 'someClass class1 class2';
-        expect(classNames('someClass', {}, ['class1', 'class2'])).toBe(expected);
+    test('should return the correct class string when only the cls parameter is provided', () => {
+        expect(classNames('test')).toBe('test');
     });
 
-    test('With mods true', () => {
-        const expected = 'someClass class1 class2 hovered selected';
-        expect(classNames(
-            'someClass',
-            { hovered: true, selected: true },
-            ['class1', 'class2'],
-        )).toBe(expected);
+    test('should filter out falsy additional classes', () => {
+        const additional = ['extra', '', null, 'class', undefined, 'name'];
+        expect(classNames('test', {}, additional)).toBe('test extra class name');
     });
 
-    test('With mods not all true', () => {
-        const expected = 'someClass class1 class2 hovered';
-        expect(classNames(
-            'someClass',
-            { hovered: true, selected: false },
-            ['class1', 'class2'],
-        )).toBe(expected);
+    test('should add mods classes when the boolean value is true', () => {
+        const mods = {
+            mod1: true,
+            mod2: false,
+            mod3: 'string',
+            mod4: '',
+        };
+        expect(classNames('test', mods)).toBe('test mod1 mod3');
     });
 
-    test('With mods undefined', () => {
-        const expected = 'someClass class1 class2 hovered';
-        expect(classNames(
-            'someClass',
-            { hovered: true, selected: undefined },
-            ['class1', 'class2'],
-        )).toBe(expected);
+    test('should handle combination of all parameters correctly', () => {
+        const mods = {
+            mod1: true,
+            mod2: false,
+        };
+        const additional = ['extra', '', 'class'];
+        expect(classNames('test', mods, additional)).toBe('test extra class mod1');
+    });
+
+    test('should handle empty string as cls parameter', () => {
+        const mods = {
+            mod1: true,
+            mod2: false,
+        };
+        const additional = ['extra', '', 'class'];
+        expect(classNames('', mods, additional)).toBe('extra class mod1');
     });
 });

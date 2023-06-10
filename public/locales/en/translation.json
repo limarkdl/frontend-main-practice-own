@@ -3,5 +3,11 @@
   "MainPage": "Main Page",
   "MainLink": "Main",
   "AboutLink": "About",
-  "SidebarToggleBt": "Open sidebar"
+  "SidebarToggleBt": "Menu",
+  "NotFoundPageText": "Page not found",
+  "LIMARKDL": "LIMARKDL",
+  "PageErrorMessage": "Something went wrong!",
+  "PageErrorApologizing": "We're sorry for the inconvenience. Please try again.",
+  "PageErrorTryAgain": "Try Again",
+  "BugBt": "Crash 💥"
 }

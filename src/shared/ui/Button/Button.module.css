@@ -1,0 +1,7 @@
+.Button {
+    @apply duration-color-transition-global bg-red-500;
+}
+
+/* .clear {
+    @apply p-0 border-none bg-none outline-none
+} */
