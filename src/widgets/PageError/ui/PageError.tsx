@@ -16,17 +16,11 @@ const PageError = ({ className }: PageErrorProps) => {
     };
 
     return (
-        // <div className={classNames(cls.PageError, {}, [className])}>
-        //     <h1>{t('Something went wrong!')}</h1>
-        //     <Button onClick={reloadPage}>
-        //         {t('Reload page')}
-        //     </Button>
-        // </div>
         <div className={classNames(cls.PageError, {}, [className])}>
             <h1 className="text-2xl font-bold text-red-500">
                 {t('PageErrorMessage')}
             </h1>
-            <p className="mt-4 mb-6">
+            <p className="mt-4 mb-6 text-center">
                 {t('PageErrorApologizing')}
 
             </p>
