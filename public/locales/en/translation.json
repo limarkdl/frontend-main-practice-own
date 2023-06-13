@@ -6,5 +6,6 @@
   "BugBt": "Crash",
   "PageErrorMessage": "Something went wrong",
   "PageErrorApologizing": "We apologize for any inconvenience caused",
-  "PageErrorTryAgain": "Reload page"
+  "PageErrorTryAgain": "Reload page",
+  "SidebarToggleBt": "SidebarToggleBt"
 }

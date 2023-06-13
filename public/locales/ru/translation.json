@@ -7,5 +7,6 @@
   "BugBt": "Краш",
   "PageErrorMessage": "Что-то пошло не так",
   "PageErrorApologizing": "Приносим извинения за причиненные неудобства",
-  "PageErrorTryAgain": "Перезагрузить страницу"
+  "PageErrorTryAgain": "Перезагрузить страницу",
+  "SidebarToggleBt": "SidebarToggleBt"
 }

@@ -6,5 +6,6 @@
   "BugBt": "Colapso",
   "PageErrorMessage": "Algo salió mal",
   "PageErrorApologizing": "Pedimos disculpas por cualquier inconveniente causado",
-  "PageErrorTryAgain": "Recargar página"
+  "PageErrorTryAgain": "Recargar página",
+  "SidebarToggleBt": "SidebarToggleBt"
 }

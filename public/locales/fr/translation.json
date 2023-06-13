@@ -6,5 +6,6 @@
   "BugBt": "Écrasement",
   "PageErrorMessage": "Quelque chose a mal tourné",
   "PageErrorApologizing": "Nous nous excusons pour tout désagrément causé",
-  "PageErrorTryAgain": "Recharger la page"
+  "PageErrorTryAgain": "Recharger la page",
+  "SidebarToggleBt": "SidebarToggleBt"
 }

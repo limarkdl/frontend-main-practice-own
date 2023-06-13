@@ -6,5 +6,6 @@
   "BugBt": "Σύγκρουση",
   "PageErrorMessage": "Κάτι πήγε στραβά",
   "PageErrorApologizing": "Απολογούμαστε για οποιαδήποτε ταλαιπωρία που προκλήθηκε",
-  "PageErrorTryAgain": "Επαναφόρτωση σελίδας"
+  "PageErrorTryAgain": "Επαναφόρτωση σελίδας",
+  "SidebarToggleBt": "SidebarToggleBt"
 }

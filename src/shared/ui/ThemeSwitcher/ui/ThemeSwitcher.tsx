@@ -2,7 +2,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSun, faMoon, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 interface ThemeSwitcherProps {
     className?: string;

@@ -6,5 +6,6 @@
   "BugBt": "Avarii",
   "PageErrorMessage": "Midagi läks valesti",
   "PageErrorApologizing": "Vabandame tekkinud ebamugavuste pärast",
-  "PageErrorTryAgain": "Lehe uuesti laadimine"
+  "PageErrorTryAgain": "Lehe uuesti laadimine",
+  "SidebarToggleBt": "SidebarToggleBt"
 }
