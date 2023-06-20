@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e81e5bc9-1b34-4129-9b39-d8258a604aee" name="Changes" comment="TEST" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1cbb835c-7b84-4f86-9832-733b766dc3fe" />
+        <option name="url" value="https://github.com/limarkdl/frontend-main-practice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Q1TppMuZlmfpbUDwg8avyQCRLQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "own",
+    "javascript.nodejs.core.library.configured.version": "17.4.0",
+    "javascript.nodejs.core.library.typings.version": "17.0.45",
+    "js.last.introduce.type": "CONST",
+    "jsx.switch.disabled": "true",
+    "last_opened_file_path": "/home/limarkdl/WebstormProjects/frontend-main-practice",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/standard",
+    "node.js.selected.package.stylelint": "/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/home/limarkdl/WebstormProjects/frontend-main-practice-own/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/config/storybook" />
+      <recent name="$PROJECT_DIR$/config/storybook" />
+      <recent name="$PROJECT_DIR$/config/jest" />
+      <recent name="$PROJECT_DIR$/src/shared/ui/LangSwitcher" />
+      <recent name="$PROJECT_DIR$/src/shared/ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.classNames function.should filter out falsy additional classes">
+    <configuration name="classNames function.should filter out falsy additional classes" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/shared/lib/classNames/classNames.test.ts" />
+      <test-names>
+        <test-name value="classNames function" />
+        <test-name value="should filter out falsy additional classes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="classNames" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/shared/lib/classNames/classNames.test.ts" />
+      <test-names>
+        <test-name value="classNames" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="classNames.With mods undefined" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/shared/lib/classNames/classNames.test.ts" />
+      <test-names>
+        <test-name value="classNames" />
+        <test-name value="With mods undefined" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.classNames function.should filter out falsy additional classes" />
+        <item itemvalue="Jest.classNames.With mods undefined" />
+        <item itemvalue="Jest.classNames" />
+        <item itemvalue="Jest.classNames function.should filter out falsy additional classes" />
+        <item itemvalue="Jest.classNames.With mods undefined" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e81e5bc9-1b34-4129-9b39-d8258a604aee" name="Changes" comment="Redesign + Extra functionality" />
+      <created>1684520273492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684520273492</updated>
+      <workItem from="1684520275226" duration="6941000" />
+      <workItem from="1684532433502" duration="11074000" />
+      <workItem from="1684595955724" duration="3830000" />
+      <workItem from="1684611717354" duration="26010000" />
+      <workItem from="1684797521008" duration="13812000" />
+      <workItem from="1685902048987" duration="1833000" />
+      <workItem from="1685914045978" duration="172000" />
+      <workItem from="1685914252380" duration="10320000" />
+      <workItem from="1686426409484" duration="2608000" />
+      <workItem from="1686762966668" duration="666000" />
+      <workItem from="1686775600879" duration="8572000" />
+      <workItem from="1686851281765" duration="125000" />
+      <workItem from="1687034130037" duration="25680000" />
+      <workItem from="1687064789920" duration="1373000" />
+      <workItem from="1687066468160" duration="892000" />
+      <workItem from="1687067679739" duration="638000" />
+      <workItem from="1687107527032" duration="994000" />
+      <workItem from="1687221979007" duration="6000" />
+      <workItem from="1687223892544" duration="1290000" />
+    </task>
+    <task id="LOCAL-00001" summary="Webpack is configured and ready to go">
+      <created>1684522334090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684522334090</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Webpack configuration is decomposed now">
+      <created>1684524779324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684524779324</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ignoring /build now">
+      <created>1684525771758</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684525771758</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Environment's variables are created">
+      <created>1684533433250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684533433250</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Environment's variables are created">
+      <created>1684533541177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684533541177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="React + SCSS Loaders + CSS Modules are configured">
+      <created>1684536417449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684536417450</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Routes + Themes hooks are added">
+      <created>1684595137892</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684595137892</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feature Sliced Design is applied">
+      <created>1684597617945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684597617945</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feature Sliced Design is applied">
+      <created>1684597622190</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684597622190</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Theme switcher + file-loader + SVG loader added">
+      <created>1684620511375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684620511375</updated>
+    </task>
+    <task id="LOCAL-00011" summary="i18n added + Layout organized">
+      <created>1684782568777</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684782568777</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ESLint is configured">
+      <created>1684788840804</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684788840804</updated>
+    </task>
+    <task id="LOCAL-00013" summary="StyleLint is configured">
+      <created>1684798853679</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684798853679</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Jest is configured">
+      <created>1684853433845</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684853433845</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Big style update + TailWindCSS is configured">
+      <created>1686426685401</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686426685401</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Redesign + Extra functionality">
+      <created>1686699966522</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686699966522</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Redesign + Extra functionality">
+      <created>1686700095761</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686700095761</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Redesign + Extra functionality">
+      <created>1686700116123</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686700116123</updated>
+    </task>
+    <task id="LOCAL-00019" summary="StoryBook 7 + Stories + Decorators">
+      <created>1687065468854</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687065468854</updated>
+    </task>
+    <task id="LOCAL-00020" summary="StoryBook 7 + Stories + Decorators">
+      <created>1687065719550</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687065719550</updated>
+    </task>
+    <task id="LOCAL-00021" summary="StoryBook 7 + Stories + Decorators">
+      <created>1687065815583</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687065815583</updated>
+    </task>
+    <task id="LOCAL-00022" summary="StoryBook 7 + Stories + Decorators">
+      <created>1687066021409</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687066021409</updated>
+    </task>
+    <task id="LOCAL-00023" summary="StoryBook 7 + Stories + Decorators">
+      <created>1687066368817</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687066368817</updated>
+    </task>
+    <task id="LOCAL-00024" summary="CI Pipeline">
+      <created>1687067061205</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687067061205</updated>
+    </task>
+    <task id="LOCAL-00025" summary="TEST">
+      <created>1687224736448</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1687224736448</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/config/storybook/main.js" />
+        <option value="$PROJECT_DIR$/config/storybook/preview.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Webpack is configured and ready to go" />
+    <MESSAGE value="Webpack configuration is decomposed now" />
+    <MESSAGE value="Ignoring /build now" />
+    <MESSAGE value="Environment's variables are created" />
+    <MESSAGE value="React + SCSS Loaders + CSS Modules are configured" />
+    <MESSAGE value="Routes + Themes hooks are added" />
+    <MESSAGE value="Feature Sliced Design is applied" />
+    <MESSAGE value="Theme switcher + file-loader + SVG loader added" />
+    <MESSAGE value="i18n added + Layout organized" />
+    <MESSAGE value="ESLint is configured" />
+    <MESSAGE value="StyleLint is configured" />
+    <MESSAGE value="Jest is configured" />
+    <MESSAGE value="Big style update + TailWindCSS is configured" />
+    <MESSAGE value="Redesign + Extra functionality" />
+    <MESSAGE value="StoryBook 7 + Stories + Decorators" />
+    <MESSAGE value="CI Pipeline" />
+    <MESSAGE value="TEST" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST" />
+  </component>
+</project>
