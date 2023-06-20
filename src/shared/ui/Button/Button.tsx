@@ -4,25 +4,34 @@ import cls from './Button.module.css';
 
 export enum ButtonTheme {
     CLEAR = 'clear',
+    PRIMARY = 'primary',
+    OUTLINE = 'outline',
 }
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
     className?: string;
     theme?: ButtonTheme;
+    backgroundColor?: string;
+    color?: string;
+    borderRadius?: string;
 }
 
-const Button: FC<ButtonProps> = (props: ButtonProps) => {
+export const Button: FC<ButtonProps> = (props: ButtonProps) => {
     const {
         className,
         children,
         theme,
+        backgroundColor,
+        color,
+        borderRadius,
         ...otherProps
     } = props;
 
     return (
         <button
             type="button"
-            className={classNames(cls.Button, { [cls[theme]]: theme }, [className])}
+            className={classNames(cls.Btn, { [cls[theme]]: theme }, [className])}
+            style={{ backgroundColor, color, borderRadius }}
             {...otherProps}
         >
             {children}

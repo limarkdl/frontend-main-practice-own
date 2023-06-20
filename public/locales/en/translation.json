@@ -1,5 +1,5 @@
 {
-  "NameLogo": "Logistica",
+  "NameLogo": "LIMARK",
   "MainLink": "Main",
   "AboutLink": "About us",
   "MainPage": "Main page",
@@ -7,5 +7,5 @@
   "PageErrorMessage": "Something went wrong",
   "PageErrorApologizing": "We apologize for any inconvenience caused",
   "PageErrorTryAgain": "Reload page",
-  "SidebarToggleBt": "SidebarToggleBt"
+  "SidebarToggleBt": ">>>"
 }

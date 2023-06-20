@@ -1,12 +1,15 @@
-@import "reset.css";
+@import "./reset.css";
 @import "./variables/global.css";
 @import "./themes/normal.css";
 @import "./themes/dark.css";
 
-
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
 
 @layer utilities {
     .page-loader-height {
@@ -16,14 +19,20 @@
 
 
 .app {
-    @apply bg-bg-color text-primary-color 
-        min-h-screen text-size-m duration-color-transition-global;
+    background: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    font-size: var(--font-size-m);
+    transition: color var(--color-animation-duration) ease, background var(--color-animation-duration) ease;
 }
 
 .content-page {
-    @apply flex ;
+    display: flex;
 }
 
 .page-wrapper {
-    @apply grow p-5 text-[--inverted-primary-color] duration-color-transition-global;
+    flex-grow: 1;
+    padding: 20px;
+    color: var(--inverted-primary-color);
+    transition: color var(--color-animation-duration) ease, background var(--color-animation-duration) ease;
 }

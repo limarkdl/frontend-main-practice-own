@@ -1,20 +1,32 @@
 .Navbar {
-    @apply w-full h-[--navbar-height] flex items-center
-    duration-color-transition-global justify-between px-5
-    bg-inverted-bg-color;
+    width: 100%;
+    height: var(--navbar-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    background: var(--inverted-bg-color);
+    transition-duration: var(--color-animation-duration);
 }
 
 
 .name {
-    @apply text-size-l font-main leading-size-l text-primary-color
-    duration-color-transition-global;
+    font-size: var(--font-size-l);
+    line-height: var(--font-line-l);
+    color: var(--primary-color);
+    transition-duration: var(--color-animation-duration);
 }
 
 .links {
-    @apply flex gap-3 items-center;
+    display: flex;
+    gap: 12px;
+    align-items: center;
 }
 
 .mainLink,
 .aboutLink {
-    @apply text-size-m font-main leading-size-l text-primary-color duration-color-transition-global;
+    font-size: var(--font-size-m);
+    line-height: var(--font-line-m);
+    color: var(--primary-color);
+    transition-duration: var(--color-animation-duration);
 }

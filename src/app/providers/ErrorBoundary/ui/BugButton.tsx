@@ -1,5 +1,5 @@
 import { classNames } from 'shared/lib/classNames/classNames';
-import Button from 'shared/ui/Button/Button';
+import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 import cls from './BugButton.module.css';
@@ -24,9 +24,9 @@ const BugButton = ({ className }: BugButtonProps) => {
     }, [error]);
 
     return (
-        <div className={classNames(cls.BugButton, {}, [className])}>
+        <div className={classNames('', {}, [className])}>
             {/* eslint-disable-next-line i18next/no-literal-string */}
-            <Button onClick={throwError}>{t('BugBt')}</Button>
+            <Button className={cls.BugButton} onClick={throwError} theme={ButtonTheme.PRIMARY}>{t('BugBt')}</Button>
         </div>
     );
 };

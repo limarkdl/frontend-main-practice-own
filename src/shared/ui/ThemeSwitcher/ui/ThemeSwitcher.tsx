@@ -18,28 +18,31 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
             className={classNames('', {}, [className])}
             onClick={toggleTheme}
         >
-            {theme === Theme.DARK ?
-                <>
-                    <FontAwesomeIcon
-                        icon={faLightbulb}
-                        style={{opacity: 0.5}}
-                    />
+            {theme === Theme.DARK
+                ? (
+                    <>
+                        <FontAwesomeIcon
+                            icon={faLightbulb}
+                            style={{ opacity: 0.5 }}
+                        />
                     &nbsp;|&nbsp;
-                    <FontAwesomeIcon
-                        icon={faMoon}
-                    />
-                </>
-                :
-                <>
-                    <FontAwesomeIcon
-                        icon={faLightbulb}
-                    />
+                        <FontAwesomeIcon
+                            icon={faMoon}
+                        />
+                    </>
+                )
+                : (
+                    <>
+                        <FontAwesomeIcon
+                            icon={faLightbulb}
+                        />
                     &nbsp;|&nbsp;
-                    <FontAwesomeIcon
-                        icon={faMoon}
-                        style={{opacity: 0.5}}
-                    />
-                </>}
+                        <FontAwesomeIcon
+                            icon={faMoon}
+                            style={{ opacity: 0.5 }}
+                        />
+                    </>
+                )}
         </Button>
     );
 };

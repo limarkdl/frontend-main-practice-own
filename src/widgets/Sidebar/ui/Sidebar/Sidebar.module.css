@@ -1,16 +1,26 @@
 .Sidebar {
-    @apply h-sidebar w-sidebar relative
-        bg-sidebar-bg-color duration-color-transition-global flex-col text-center;
+    height: calc(100vh - var(--navbar-height));
+    width: var(--sidebar-width);
+    background: var(--sidebar-bg-color);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
 }
 
 .collapsed {
-    @apply w-sidebar-collapsed;
+    width: var(--sidebar-width-collapsed);
 }
 
 .switchers {
-    @apply absolute flex bottom-5 w-full justify-center;
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .lang {
-    @apply ml-2;
+    margin-left: 8px;
 }

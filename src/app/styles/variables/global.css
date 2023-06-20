@@ -11,4 +11,5 @@
     --sidebar-width-collapsed: 80px;
     --sidebar-height: calc(100vh - var(--navbar-height));
     --color-animation-duration: 0.2s;
+
 }

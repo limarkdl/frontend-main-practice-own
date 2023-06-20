@@ -1,6 +1,5 @@
 {
-  "Language": "\uD83C\uDDF7\uD83C\uDDFA",
-  "NameLogo": "Logistica",
+  "NameLogo": "LIMARK",
   "MainLink": "Главная",
   "AboutLink": "О нас",
   "MainPage": "Главная страница",
@@ -8,5 +7,5 @@
   "PageErrorMessage": "Что-то пошло не так",
   "PageErrorApologizing": "Приносим извинения за причиненные неудобства",
   "PageErrorTryAgain": "Перезагрузить страницу",
-  "SidebarToggleBt": "SidebarToggleBt"
+  "SidebarToggleBt": ">>>"
 }

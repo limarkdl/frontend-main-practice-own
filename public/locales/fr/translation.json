@@ -1,5 +1,5 @@
 {
-  "NameLogo": "Logistique",
+  "NameLogo": "LIMARK",
   "MainLink": "Principal",
   "AboutLink": "À propos",
   "MainPage": "Page d'accueil",
@@ -7,5 +7,5 @@
   "PageErrorMessage": "Quelque chose a mal tourné",
   "PageErrorApologizing": "Nous nous excusons pour tout désagrément causé",
   "PageErrorTryAgain": "Recharger la page",
-  "SidebarToggleBt": "SidebarToggleBt"
+  "SidebarToggleBt": ">>>"
 }

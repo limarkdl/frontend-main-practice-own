@@ -45,10 +45,8 @@ const LanguageSwitcher = () => {
         // Add as many languages as you need.
     ];
 
-
-
     const currentLanguage = languageOptions.find(
-        (option) => option.value === i18n.language
+        (option) => option.value === i18n.language,
     );
 
     const handleLanguageChange = (selectedOption: { value: string; }) => {
@@ -59,7 +57,7 @@ const LanguageSwitcher = () => {
         <Select
             maxMenuHeight={null}
 
-            className={'select'}
+            className="select"
             defaultValue={currentLanguage || languageOptions.find((option) => option.value === 'en')}
             options={languageOptions}
             onChange={handleLanguageChange}
@@ -89,7 +87,6 @@ const LanguageSwitcher = () => {
                 }),
                 menuList: (provided) => ({
                     ...provided,
-
 
                 }),
 
