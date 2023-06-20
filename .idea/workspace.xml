@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e81e5bc9-1b34-4129-9b39-d8258a604aee" name="Changes" comment="TEST" />
+    <list default="true" id="e81e5bc9-1b34-4129-9b39-d8258a604aee" name="Changes" comment="TEST">
+      <change beforePath="$PROJECT_DIR$/TEST.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TEST.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +24,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="own" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "own",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "17.4.0",
     "javascript.nodejs.core.library.typings.version": "17.0.45",
     "js.last.introduce.type": "CONST",
