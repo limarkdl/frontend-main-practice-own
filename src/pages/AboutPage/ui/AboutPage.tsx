@@ -12,8 +12,10 @@ const AboutPage = () => {
                 href="https://github.com/limarkdl/frontend-main-practice-own"
                 rel="noreferrer"
             >
-                {/* eslint-disable-next-line i18next/no-literal-string */}
-                https://github.com/limarkdl/frontend-main-practice-own
+                <code>
+                    https://github.com/limarkdl/frontend-main-practice-own
+
+                </code>
             </a>
         </div>
     );

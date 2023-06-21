@@ -8,5 +8,6 @@
   "PageErrorApologizing": "Απολογούμαστε για οποιαδήποτε ταλαιπωρία που προκλήθηκε",
   "PageErrorTryAgain": "Επαναφόρτωση σελίδας",
   "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Η σελίδα δεν βρέθηκε"
+  "NotFoundPageText": "Η σελίδα δεν βρέθηκε",
+  "DebugTools": "Εργαλεία αποσφαλμάτωσης:"
 }

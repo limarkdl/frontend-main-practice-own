@@ -8,5 +8,6 @@
   "PageErrorApologizing": "We apologize for any inconvenience caused",
   "PageErrorTryAgain": "Reload page",
   "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Page not found"
+  "NotFoundPageText": "Page not found",
+  "DebugTools": "DebugTools:"
 }

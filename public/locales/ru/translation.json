@@ -8,5 +8,6 @@
   "PageErrorApologizing": "Приносим извинения за причиненные неудобства",
   "PageErrorTryAgain": "Перезагрузить страницу",
   "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Страница не найдена"
+  "NotFoundPageText": "Страница не найдена",
+  "DebugTools": "Инструменты разработчика:"
 }

@@ -8,5 +8,6 @@
   "PageErrorApologizing": "Vabandame tekkinud ebamugavuste pärast",
   "PageErrorTryAgain": "Lehe uuesti laadimine",
   "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Lehte ei leitud"
+  "NotFoundPageText": "Lehte ei leitud",
+  "DebugTools": "Debug tööriistad:"
 }

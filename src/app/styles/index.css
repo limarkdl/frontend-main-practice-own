@@ -9,7 +9,7 @@
 }
 
 a {
-    color: var(--inverted-bg-color);
+    color: inherit;
 }
 
 .app {
@@ -27,7 +27,7 @@ a {
 
 }
 
-.page-wrapper {
+.page-container {
     overflow-x: hidden;
     width: calc(100vw - var(--sidebar-width));
     flex-grow: 1;
@@ -36,6 +36,13 @@ a {
     padding: 20px;
     color: var(--inverted-primary-color);
     transition: color var(--color-animation-duration) ease, background var(--color-animation-duration) ease;
+}
+
+.page-wrapper {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
 }
 
 /* PRINTER OPTIMIZATION */

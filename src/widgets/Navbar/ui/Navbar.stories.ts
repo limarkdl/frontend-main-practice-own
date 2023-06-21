@@ -6,7 +6,7 @@ import { Theme } from 'app/providers/ThemeProvider';
 import { RouterDecorator } from 'shared/config/storybook/RouterDecorator/RouterDecorator';
 
 const meta: Meta<typeof Navbar> = {
-    title: 'ui/Navbar',
+    title: 'widgets/Navbar',
     component: Navbar,
     decorators: [RouterDecorator],
 };

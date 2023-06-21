@@ -6,7 +6,7 @@ import { Theme } from 'app/providers/ThemeProvider';
 import { Sidebar } from './Sidebar';
 
 const meta: Meta<typeof Sidebar> = {
-    title: 'ui/Sidebar',
+    title: 'widgets/Sidebar',
     component: Sidebar,
 };
 

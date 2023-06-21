@@ -1,7 +1,16 @@
 .NotFoundPage {
     display: flex;
+    flex-direction: column;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     font: var(--font-l);
     height: 100%;
+    text-align: center;
+}
+
+.IconsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
