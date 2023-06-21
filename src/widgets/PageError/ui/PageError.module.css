@@ -1,11 +1,40 @@
 .PageError {
-    @apply
-    w-full
-    h-screen
-    flex
-    flex-col
-    justify-center
-    items-center
-    bg-no-repeat
-    bg-cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PageErrorContainer {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorMessage {
+    font-size: 24px;
+    font-weight: bolder;
+    color: red;
+}
+
+.Apologizing {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.ReloadButton {
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.3s;
 }

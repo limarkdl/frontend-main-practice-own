@@ -1,3 +1,4 @@
 .select {
-    @apply text-2xl w-5 h-3;
+    font-size: var(--font-size-s);
+    width: 3.5rem;
 }

@@ -1,11 +1,10 @@
-import type {Meta, StoryObj} from '@storybook/react';
-import {SBThemeProvider} from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
-import {Button, ButtonTheme} from './Button';
-import '../../../app/styles/index.css';
-import {Theme} from "app/providers/ThemeProvider";
+import type { Meta, StoryObj } from '@storybook/react';
+import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
+import { Theme } from 'app/providers/ThemeProvider';
+import { Button, ButtonTheme } from './Button';
 
 const meta: Meta<typeof Button> = {
-    title: 'ui/Button',
+    title: 'shared/Button',
     component: Button,
 };
 
@@ -20,7 +19,7 @@ export const ClearBt: Story = {
     },
 
 };
-ClearBt.decorators = [SBThemeProvider(Theme.LIGHT)]
+ClearBt.decorators = [ThemeDecorator(Theme.LIGHT)];
 
 export const ClearBtDark: Story = {
     name: 'Clear Dark',
@@ -30,7 +29,7 @@ export const ClearBtDark: Story = {
     },
 
 };
-ClearBtDark.decorators = [SBThemeProvider(Theme.DARK)]
+ClearBtDark.decorators = [ThemeDecorator(Theme.DARK)];
 
 export const PrimaryBt: Story = {
     name: 'Primary',
@@ -39,7 +38,7 @@ export const PrimaryBt: Story = {
         children: 'Button',
     },
 };
-PrimaryBt.decorators = [SBThemeProvider(Theme.LIGHT)]
+PrimaryBt.decorators = [ThemeDecorator(Theme.LIGHT)];
 
 export const PrimaryBtDark: Story = {
     name: 'Primary Dark',
@@ -48,7 +47,7 @@ export const PrimaryBtDark: Story = {
         children: 'Button',
     },
 };
-PrimaryBtDark.decorators = [SBThemeProvider(Theme.DARK)]
+PrimaryBtDark.decorators = [ThemeDecorator(Theme.DARK)];
 
 export const OutlineBt: Story = {
     name: 'Outline',
@@ -57,7 +56,7 @@ export const OutlineBt: Story = {
         children: 'Button',
     },
 };
-OutlineBt.decorators = [SBThemeProvider(Theme.LIGHT)]
+OutlineBt.decorators = [ThemeDecorator(Theme.LIGHT)];
 
 export const OutlineBtDark: Story = {
     name: 'Outline Dark',
@@ -66,4 +65,4 @@ export const OutlineBtDark: Story = {
         children: 'Button',
     },
 };
-OutlineBtDark.decorators = [SBThemeProvider(Theme.DARK)]
+OutlineBtDark.decorators = [ThemeDecorator(Theme.DARK)];

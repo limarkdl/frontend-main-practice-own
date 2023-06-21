@@ -4,31 +4,27 @@
     box-sizing: border-box;
     cursor: pointer;
     transition: all 0.3s ease;
-    color: var(--inverted-primary-color);
+    padding: 0.5rem 1rem;
 }
 
 .clear {
+    color: var(--inverted-primary-color);
     background: none;
     border: none;
     box-sizing: border-box;
 }
 
 .primary {
-    background: var(--inverted-bg-color);
+    color: var(--primary-color);
+    background-color: var(--inverted-bg-color) ;
     border-radius: 15px;
     border: none;
 }
 
-.primary:hover {
-    background: var(--bg-color);
-}
 
 .outline {
+    color: var(--inverted-primary-color);
     background: transparent;
-    border: 1px solid black;
+    border: 1px solid var(--inverted-primary-color);
     border-radius: 15px;
-}
-.outline:hover {
-    border: 1px solid grey;
-    color: grey;
 }

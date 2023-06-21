@@ -5,7 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e81e5bc9-1b34-4129-9b39-d8258a604aee" name="Changes" comment="TEST">
-      <change beforePath="$PROJECT_DIR$/TEST.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TEST.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_AboutPage_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_AboutPage_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_MainPage_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_NotFoundPage_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_pages_NotFoundPage_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_AppLink_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Button_Clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Button_Clear_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Button_Outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Button_Outline_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Button_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_Button_Primary_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ThemeSwitcher_ThemeSwitcher_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_shared_ThemeSwitcher_ThemeSwitcher_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_ui_Navbar_Navbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_ui_Navbar_Navbar_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_AboutPage_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_AboutPage_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_MainPage_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_NotFoundPage_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_pages_NotFoundPage_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_AppLink_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Button_Clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Button_Clear_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Button_Outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Button_Outline_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Button_Primary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_Button_Primary_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ThemeSwitcher_ThemeSwitcher_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_shared_ThemeSwitcher_ThemeSwitcher_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_ui_Navbar_Navbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_ui_Navbar_Navbar_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/221.e42836fee95b801050ab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/css/main.97f0523d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main.7a7bd081615ab0355601.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main.7a7bd081615ab0355601.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/storybook/webpack.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extractedTranslations/en/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/RouterDecorator/RouterDecorator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/config/storybook/ThemeDecorator/ThemeDecorator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/AppLink/AppLink.stories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher/ui/ThemeSwitcher.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_20_23__4_18_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_20_23__4_18_AM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_ui_Sidebar_Sidebar.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_ui_Sidebar_Sidebar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_ui_Sidebar_Sidebar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_iphone7_ui_Sidebar_Sidebar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_ui_Sidebar_Sidebar.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_ui_Sidebar_Sidebar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.loki/reference/chrome_laptop_ui_Sidebar_Sidebar_Dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/.loki/reference/chrome_laptop_ui_Sidebar_Sidebar_Dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildLoaders.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildLoaders.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storybook/preview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/config/storybook/preview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractedTranslations/en/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/extractedTranslations/en/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/de/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/de/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/de/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/et/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/et/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/et/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/et/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/gr/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/gr/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/gr/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/gr/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ru/aboutPage.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ru/aboutPage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ru/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/BugButton.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/BugButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/providers/ErrorBoundary/ui/BugButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/themes/normal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/themes/normal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/variables/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/variables/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.async.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.async.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage/ui/AboutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/ui/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFoundPage/ui/NotFoundPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/i18n/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/config/storybook/withI18next/with18next.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/config/storybook/withI18next/with18next.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Button/Button.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/ui/LangSwitcher.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/ui/LangSwitcher.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/ui/LangSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/LangSwitcher/ui/LangSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher/ui/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/ThemeSwitcher/ui/ThemeSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Navbar/ui/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageError/ui/PageError.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/PageLoader/ui/PageLoader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/PageLoader/ui/PageLoader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar/Sidebar.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar/Sidebar.stories.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +147,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/widgets/Sidebar/ui/Sidebar/Sidebar.module.css" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,38 +164,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "17.4.0",
-    "javascript.nodejs.core.library.typings.version": "17.0.45",
-    "js.last.introduce.type": "CONST",
-    "jsx.switch.disabled": "true",
-    "last_opened_file_path": "/home/limarkdl/WebstormProjects/frontend-main-practice",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/standard",
-    "node.js.selected.package.stylelint": "/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/stylelint",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/home/limarkdl/WebstormProjects/frontend-main-practice-own/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;17.4.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;17.0.45&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;jsx.switch.disabled&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/limarkdl/WebstormProjects/frontend-main-practice&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/standard&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;/home/limarkdl/WebstormProjects/frontend-main-practice-own/node_modules/stylelint&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/limarkdl/WebstormProjects/frontend-main-practice/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/limarkdl/WebstormProjects/frontend-main-practice-own/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/shared/config/storybook" />
@@ -173,6 +281,9 @@
       <workItem from="1687107527032" duration="994000" />
       <workItem from="1687221979007" duration="6000" />
       <workItem from="1687223892544" duration="1290000" />
+      <workItem from="1687303534366" duration="14601000" />
+      <workItem from="1687318444761" duration="13073000" />
+      <workItem from="1687331874999" duration="1358000" />
     </task>
     <task id="LOCAL-00001" summary="Webpack is configured and ready to go">
       <created>1684522334090</created>
@@ -354,12 +465,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/config/storybook/main.js" />
-        <option value="$PROJECT_DIR$/config/storybook/preview.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

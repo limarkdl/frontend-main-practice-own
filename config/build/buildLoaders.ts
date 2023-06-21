@@ -56,17 +56,7 @@ export function buildLoaders(
                 },
             },
             // PostCSS and TailwindCSS integration
-            {
-                loader: 'postcss-loader',
-                options: {
-                    postcssOptions: {
-                        plugins: [
-                            'tailwindcss',
-                            'autoprefixer',
-                        ],
-                    },
-                },
-            },
+
         ],
     };
 

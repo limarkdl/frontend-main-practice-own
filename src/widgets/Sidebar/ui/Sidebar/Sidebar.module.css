@@ -1,26 +1,51 @@
 .Sidebar {
-    height: calc(100vh - var(--navbar-height));
-    width: var(--sidebar-width);
+    height: calc(100dvh - var(--navbar-height));
     background: var(--sidebar-bg-color);
-    transition: all 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    color: var(--primary-color);
+    position: relative;
+    transition: width 0.3s;
+    width: var(--sidebar-width) !important;
+}
 
+.ToggleBt {
+    padding: 30px 4px;
+    background: var(--inverted-bg-color);
+    position: absolute;
+    bottom: calc(50dvh - var(--navbar-height));
+    right: -10px;
+    cursor: pointer;
+    z-index: 100;
 }
 
 .collapsed {
-    width: var(--sidebar-width-collapsed);
+    width: var(--sidebar-width-collapsed) !important;
 }
 
 .switchers {
-    display: flex;
     position: absolute;
-    bottom: 40px;
+    white-space: nowrap;
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    width: 100%;
     align-items: center;
 }
-
+.collapsed .switchers {
+    flex-direction: column;
+    gap: 10px;
+}
 .lang {
-    margin-left: 8px;
+    margin-left: 20px;
+}
+
+@media (max-width: 480px) {
+    .collapsed .switchers {
+        display: none;
+    }
+    :root {
+        --sidebar-width-collapsed: 10px;
+        --sidebar-width: 150px;
+    }
+
 }
