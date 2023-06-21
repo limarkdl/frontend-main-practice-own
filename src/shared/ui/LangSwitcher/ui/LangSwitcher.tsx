@@ -28,7 +28,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Select from 'react-select';
-import './LangSwitcher.module.css';
+import cls from './LangSwitcher.module.css';
 
 const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
@@ -56,8 +56,8 @@ const LanguageSwitcher = () => {
     return (
         <Select
             maxMenuHeight={null}
-
-            className="select"
+            className={cls.select}
+            menuPlacement="top"
             defaultValue={currentLanguage || languageOptions.find((option) => option.value === 'en')}
             options={languageOptions}
             onChange={handleLanguageChange}

@@ -1,5 +1,5 @@
 import type { Preview, StoryObj } from '@storybook/react';
-import 'app/styles/index.css';
+import '../../src/app/styles/index.css';
 import { withI18next } from '../../src/shared/config/storybook/withI18next/with18next';
 
 const preview: Preview = {
@@ -12,12 +12,8 @@ const preview: Preview = {
             },
         },
     },
-    decorators: [withI18next,
-        (Story) => (
-            <div style={{ padding: '0 !important', margin: '0 !important', border: 'none !important' }}>
-                <Story />
-            </div>
-        ),
+    decorators: [
+        withI18next,
     ],
 
 };

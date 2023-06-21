@@ -1,5 +1,5 @@
 {
-  "NameLogo": "LIMARK",
+  "NameLogo": "IKostin",
   "MainLink": "Principal",
   "AboutLink": "À propos",
   "MainPage": "Page d'accueil",
@@ -7,5 +7,6 @@
   "PageErrorMessage": "Quelque chose a mal tourné",
   "PageErrorApologizing": "Nous nous excusons pour tout désagrément causé",
   "PageErrorTryAgain": "Recharger la page",
-  "SidebarToggleBt": ">>>"
+  "SidebarToggleBt": ">>>",
+  "NotFoundPageText": "La page que vous avez demandée n'a pas été trouvée"
 }

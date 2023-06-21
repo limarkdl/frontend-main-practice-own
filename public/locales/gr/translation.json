@@ -1,5 +1,5 @@
 {
-  "NameLogo": "LIMARK",
+  "NameLogo": "IKostin",
   "MainLink": "Κύριος",
   "AboutLink": "Για Εμάς",
   "MainPage": "Κύρια σελίδα",
@@ -7,5 +7,6 @@
   "PageErrorMessage": "Κάτι πήγε στραβά",
   "PageErrorApologizing": "Απολογούμαστε για οποιαδήποτε ταλαιπωρία που προκλήθηκε",
   "PageErrorTryAgain": "Επαναφόρτωση σελίδας",
-  "SidebarToggleBt": ">>>"
+  "SidebarToggleBt": ">>>",
+  "NotFoundPageText": "Η σελίδα δεν βρέθηκε"
 }

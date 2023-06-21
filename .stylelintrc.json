@@ -1,10 +1,8 @@
 {
   "extends": [
-    "stylelint-config-recommended",
-    "stylelint-config-tailwindcss"
+    "stylelint-config-recommended"
   ],
   "rules": {
-    "at-rule-no-unknown": null,
     "property-no-unknown": [
       true,
       {
@@ -14,10 +12,11 @@
       }
     ],
     "block-no-empty": null,
-    "unit-whitelist": ["em", "rem", "%", "s"]
+    "max-nesting-depth": null
   },
   "ignoreFiles": [
     "**/node_modules/**",
-    "**/.next/**"
+    "**/.next/**",
+    "**/build/**"
   ]
 }

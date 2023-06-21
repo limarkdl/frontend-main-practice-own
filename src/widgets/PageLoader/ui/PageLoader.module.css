@@ -1,5 +1,8 @@
 .pageLoader {
-    @apply flex justify-center 
-        items-center flex-grow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
     height: calc(100vh - var(--navbar-height));
 }

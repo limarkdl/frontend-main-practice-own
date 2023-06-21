@@ -14,6 +14,7 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
     return (
 
         <Button
+            style={{ color: 'inherit' }}
             theme={ButtonTheme.CLEAR}
             className={classNames('', {}, [className])}
             onClick={toggleTheme}
@@ -22,11 +23,13 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                 ? (
                     <>
                         <FontAwesomeIcon
+                            size="lg"
                             icon={faLightbulb}
                             style={{ opacity: 0.5 }}
                         />
                     &nbsp;|&nbsp;
                         <FontAwesomeIcon
+                            size="lg"
                             icon={faMoon}
                         />
                     </>
@@ -34,10 +37,12 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                 : (
                     <>
                         <FontAwesomeIcon
+                            size="lg"
                             icon={faLightbulb}
                         />
                     &nbsp;|&nbsp;
                         <FontAwesomeIcon
+                            size="lg"
                             icon={faMoon}
                             style={{ opacity: 0.5 }}
                         />

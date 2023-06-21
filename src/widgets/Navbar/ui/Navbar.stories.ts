@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { Navbar } from 'widgets/Navbar';
+import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
+import { Theme } from 'app/providers/ThemeProvider';
 import { RouterDecorator } from 'shared/config/storybook/RouterDecorator/RouterDecorator';
-import {SBThemeProvider} from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
-import {Theme} from "app/providers/ThemeProvider";
 
 const meta: Meta<typeof Navbar> = {
     title: 'ui/Navbar',
@@ -18,9 +18,9 @@ export const NavbarEl: Story = {
     name: 'Navbar',
 
 };
-NavbarEl.decorators = [SBThemeProvider(Theme.LIGHT)]
+NavbarEl.decorators = [ThemeDecorator(Theme.LIGHT)];
 
 export const NavbarElDark: Story = {
     name: 'Navbar Dark',
 };
-NavbarElDark.decorators = [SBThemeProvider(Theme.DARK)]
+NavbarElDark.decorators = [ThemeDecorator(Theme.DARK)];

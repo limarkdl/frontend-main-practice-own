@@ -1,5 +1,5 @@
 {
-  "NameLogo": "LIMARK",
+  "NameLogo": "IKostin",
   "MainLink": "Peamine",
   "AboutLink": "Meist",
   "MainPage": "Pealeht",
@@ -7,5 +7,6 @@
   "PageErrorMessage": "Midagi läks valesti",
   "PageErrorApologizing": "Vabandame tekkinud ebamugavuste pärast",
   "PageErrorTryAgain": "Lehe uuesti laadimine",
-  "SidebarToggleBt": ">>>"
+  "SidebarToggleBt": ">>>",
+  "NotFoundPageText": "Lehte ei leitud"
 }

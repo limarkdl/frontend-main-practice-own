@@ -1,7 +1,7 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import Button from 'shared/ui/Button/Button';
-import PageErrorIllustration from 'shared/assets/Group.svg';
+// import PageErrorIllustration from 'shared/assets/Group.svg';
 import cls from './PageError.module.css';
 
 interface PageErrorProps {
@@ -23,17 +23,17 @@ const PageError = ({ className }: PageErrorProps) => {
             }
         >
             {/* <PageErrorIllustration /> */}
-            <div className="bg-white rounded-2xl p-5 flex flex-col justify-center items-center">
-                <h1 className="text-2xl font-bold text-red-500">
+            <div className={cls.PageErrorContainer}>
+                <h1 className={cls.ErrorMessage}>
                     {t('PageErrorMessage')}
                 </h1>
-                <p className="mt-4 mb-6 text-center">
+                <p className={cls.Apologizing}>
                     {t('PageErrorApologizing')}
 
                 </p>
                 <Button
                     onClick={reloadPage}
-                    className="px-6 py-3 text-white bg-blue-700 rounded hover:bg-blue-500"
+                    className={cls.ReloadButton}
                 >
                     {t('PageErrorTryAgain')}
                 </Button>
