@@ -8,8 +8,6 @@ const MainPage = () => {
 
     return (
         <div>
-            <h1>{t('MainPage')}</h1>
-            <br />
             <h2>{t('DebugTools')}</h2>
             <br />
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>

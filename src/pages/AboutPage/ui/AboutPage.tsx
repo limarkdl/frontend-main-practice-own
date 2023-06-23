@@ -4,7 +4,10 @@ const AboutPage = () => {
     const { t } = useTranslation('aboutPage');
 
     return (
-        <div style={{ display: 'flex', gap: '10px', flexDirection: 'column' }}>
+        <div style={{
+            display: 'flex', gap: '10px', flexDirection: 'column', paddingBottom: '40px',
+        }}
+        >
             <h1>{t('AboutPage')}</h1>
             <p>{t('AboutPageDescription')}</p>
             <a
@@ -12,11 +15,11 @@ const AboutPage = () => {
                 href="https://github.com/limarkdl/frontend-main-practice-own"
                 rel="noreferrer"
             >
-                <code>
+                <span style={{ color: 'var(--inverted-bg-color)' }}>
                     https://github.com/limarkdl/frontend-main-practice-own
-
-                </code>
+                </span>
             </a>
+
         </div>
     );
 };
