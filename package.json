@@ -8,7 +8,7 @@
     "build:dev:server": "json-server --watch ./json-server/db.json --port 8000",
     "start:prod": "webpack serve --env port=3000 --env mode=production",
     "build:prod": "webpack --env mode=production",
-    "build:prod:Github": "webpack --env mode=production --env basenameMode=Github",
+    "build:prod:Github": "webpack --env mode=production --env basenameMode=GithubPages",
     "build:prod:Vesta": "webpack --env mode=production --env basenameMode=Vesta",
     "build:dev": "webpack --env mode=development",
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
