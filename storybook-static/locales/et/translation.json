@@ -1,0 +1,13 @@
+{
+  "NameLogo": "IKostin",
+  "MainLink": "Peamine",
+  "AboutLink": "Meist",
+  "MainPage": "Pealeht",
+  "BugBt": "Avarii",
+  "PageErrorMessage": "Midagi läks valesti",
+  "PageErrorApologizing": "Vabandame tekkinud ebamugavuste pärast",
+  "PageErrorTryAgain": "Lehe uuesti laadimine",
+  "SidebarToggleBt": ">>>",
+  "NotFoundPageText": "Lehte ei leitud",
+  "DebugTools": "Debug tööriistad:"
+}

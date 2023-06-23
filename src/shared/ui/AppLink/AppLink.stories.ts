@@ -7,9 +7,6 @@ import { RouterDecorator } from 'shared/config/storybook/RouterDecorator/RouterD
 const meta: Meta<typeof AppLink> = {
     title: 'shared/AppLink',
     component: AppLink,
-
-    decorators: [RouterDecorator],
-
 };
 
 export default meta;

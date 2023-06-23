@@ -1,6 +1,7 @@
 import type { Preview, StoryObj } from '@storybook/react';
 import '../../src/app/styles/index.css';
 import { withI18next } from '../../src/shared/config/storybook/withI18next/with18next';
+import { RouterDecorator } from '../../src/shared/config/storybook/RouterDecorator/RouterDecorator';
 
 const preview: Preview = {
     parameters: {
@@ -14,6 +15,7 @@ const preview: Preview = {
     },
     decorators: [
         withI18next,
+        RouterDecorator,
     ],
 
 };

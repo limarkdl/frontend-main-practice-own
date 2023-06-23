@@ -5,8 +5,10 @@ import { ThemeProvider } from './app/providers/ThemeProvider';
 import 'shared/config/i18n/i18n';
 import App from './app/App';
 
+const safeBasename = __BASENAME__ || '';
+
 render(
-    <BrowserRouter basename={__BASENAME__}>
+    <BrowserRouter basename={safeBasename}>
         <ErrorBoundary>
             <ThemeProvider>
                 <App />

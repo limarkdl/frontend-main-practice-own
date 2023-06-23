@@ -1,0 +1,13 @@
+{
+  "NameLogo": "IKostin",
+  "MainLink": "Main",
+  "AboutLink": "About us",
+  "MainPage": "Main page",
+  "BugBt": "Crash",
+  "PageErrorMessage": "Something went wrong",
+  "PageErrorApologizing": "We apologize for any inconvenience caused",
+  "PageErrorTryAgain": "Reload page",
+  "SidebarToggleBt": ">>>",
+  "NotFoundPageText": "Page not found",
+  "DebugTools": "DebugTools:"
+}
