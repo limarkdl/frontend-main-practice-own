@@ -10,15 +10,19 @@ const miniCssExtractOptions = {
 };
 
 // eslint-disable-next-line max-len
-export function buildPlugins({ paths, isDevelopment }: BuildOptions): webpack.WebpackPluginInstance[] {
+export function buildPlugins({ paths, isDevelopment, basenameString }: BuildOptions): webpack.WebpackPluginInstance[] {
     return [
         new HtmlWebpackPlugin({
             template: paths.htmlTemplate,
+        }),
+        new webpack.DefinePlugin({
+
         }),
         new webpack.ProgressPlugin(),
         new MiniCssExtractPlugin(miniCssExtractOptions),
         new webpack.DefinePlugin({
             __IS_DEV__: JSON.stringify(isDevelopment),
+            __BASENAME__: JSON.stringify(basenameString),
         }),
         new webpack.HotModuleReplacementPlugin(),
         new BundleAnalyzerPlugin(),

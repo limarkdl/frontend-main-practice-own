@@ -13,6 +13,13 @@ export default (env: BuildEnv) => {
     const mode = env.mode || 'development';
     const PORT = env.port || 3000;
 
+    // eslint-disable-next-line no-nested-ternary
+    const basenameString = env.basenameMode === 'GithubPages'
+        ? '/frontend-main-practice-own/'
+        : env.basenameMode === 'Vesta'
+            ? '/~ikostin/TestReactDeployment/'
+            : '';
+
     const isDevelopment = mode === 'development';
 
     return buildWebpackConfig({
@@ -20,5 +27,6 @@ export default (env: BuildEnv) => {
         paths,
         isDevelopment,
         port: PORT,
+        basenameString,
     });
 };
