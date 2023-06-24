@@ -9,5 +9,7 @@
   "PageErrorTryAgain": "Перезагрузить страницу",
   "SidebarToggleBt": ">>>",
   "NotFoundPageText": "Страница не найдена",
-  "DebugTools": "Инструменты разработчика:"
+  "DebugTools": "Инструменты разработчика:",
+  "UNDER CONSTRUCTION": "UNDER CONSTRUCTION",
+  "SITE UNDER CONSTRUCTION": "SITE UNDER CONSTRUCTION"
 }

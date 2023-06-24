@@ -1,6 +1,6 @@
 export type BuildMode = 'development' | 'production';
 
-export type BuildBasenameMode = '' | 'GithubPages' | 'Vesta';
+export type BuildBasenameMode = '' | 'GithubPages' | 'Vesta' | 'Xampp';
 
 export interface BuildPaths {
     entry: string;

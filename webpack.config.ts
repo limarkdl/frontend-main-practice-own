@@ -18,7 +18,7 @@ export default (env: BuildEnv) => {
         ? '/frontend-main-practice-own/'
         : env.basenameMode === 'Vesta'
             ? '/~ikostin/TestReactDeployment/'
-            : '';
+            : env.basenameMode === 'Xampp' ? '/myProjects/UlbiTV/' : '';
 
     const isDevelopment = mode === 'development';
 

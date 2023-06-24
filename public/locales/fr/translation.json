@@ -9,5 +9,7 @@
   "PageErrorTryAgain": "Recharger la page",
   "SidebarToggleBt": ">>>",
   "NotFoundPageText": "La page que vous avez demandée n'a pas été trouvée",
-  "DebugTools": "Outils de débogage:"
+  "DebugTools": "Outils de débogage:",
+  "UNDER CONSTRUCTION": "UNDER CONSTRUCTION",
+  "SITE UNDER CONSTRUCTION": "SITE UNDER CONSTRUCTION"
 }
