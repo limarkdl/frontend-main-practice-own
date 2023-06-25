@@ -1,5 +1,6 @@
 .Sidebar {
     height: calc(100dvh - var(--navbar-height));
+    height: calc(100vh - var(--navbar-height));
     background: var(--sidebar-bg-color);
     color: var(--primary-color);
     position: relative;
@@ -12,13 +13,36 @@
     background: var(--inverted-bg-color);
     position: absolute;
     bottom: calc(50dvh - var(--navbar-height));
+    bottom: calc(50vh - var(--navbar-height));
     right: -10px;
     cursor: pointer;
     z-index: 100;
 }
 
+.Links {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.Links span {
+    opacity: 1;
+    width: fit-content;
+    margin-left: 10px;
+    transition: width 0.3s ease, opacity 0.2s ease, visibility 0.3s ease;
+
+}
+
+.collapsed .Links span {
+    opacity: 0;
+    width: 0 !important;
+    visibility: hidden;
+    margin-left: 0;
+}
+
 .collapsed {
     width: var(--sidebar-width-collapsed) !important;
+
 }
 
 .switchers {
@@ -35,6 +59,19 @@
     flex-direction: column;
     gap: 10px;
 }
+
+
+
+.Items {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
 .lang {
     margin-left: 20px;
 }
@@ -43,6 +80,11 @@
     .collapsed .switchers {
         display: none;
     }
+
+    .collapsed .Items {
+        display: none
+    }
+
     :root {
         --sidebar-width-collapsed: 10px;
         --sidebar-width: 150px;

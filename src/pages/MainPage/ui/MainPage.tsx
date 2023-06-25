@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AppLink from 'shared/ui/AppLink/AppLink';
+import { Simulate } from 'react-dom/test-utils';
+import click = Simulate.click;
 
 const MainPage = () => {
     const { t } = useTranslation();
@@ -21,9 +24,12 @@ const MainPage = () => {
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
                 <BugButton />
                 <br />
-                <Button theme={ButtonTheme.PRIMARY}>
-                    <Link to="/abrakadabra">404 ERROR</Link>
-                </Button>
+                <AppLink to="/abrakadabra">
+                    <Button theme={ButtonTheme.PRIMARY}>
+                        404 ERROR
+                    </Button>
+                </AppLink>
+
             </div>
 
         </div>

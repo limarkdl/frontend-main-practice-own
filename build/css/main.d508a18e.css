@@ -4,13 +4,13 @@
     box-sizing: border-box;
     cursor: pointer;
     transition: all 0.3s ease;
+    border: none;
     padding: 0.5rem 1rem;
 }
 
 .Iyh0U3lC {
     color: var(--inverted-primary-color);
     background: none;
-    border: none;
     box-sizing: border-box;
 }
 
@@ -18,7 +18,6 @@
     color: var(--primary-color);
     background-color: var(--inverted-bg-color) ;
     border-radius: 15px;
-    border: none;
 }
 
 
@@ -27,6 +26,61 @@
     background: transparent;
     border: 1px solid var(--inverted-primary-color);
     border-radius: 15px;
+}
+
+.xTRWeAhX {
+    color: var(--inverted-primary-color);
+    background: var(--bg-color);
+}
+
+.HwYvivL0 {
+    color: var(--primary-color);
+    background: var(--inverted-bg-color);
+}
+
+.EVye3R7M {
+    padding: 0;
+    border-radius: 0;
+}
+
+.EVye3R7M.Zahi23kR {
+    width: var(--font-line-s);
+    height: var(--font-line-s);
+}
+
+.EVye3R7M.ddBWEZG3 {
+    width: var(--font-line-m);
+    height: var(--font-line-m);
+}
+
+.EVye3R7M.x3MqI4X3 {
+    width: var(--font-line-l);
+    height: var(--font-line-l);
+}
+
+.EVye3R7M.SuY6ONvM {
+    width: var(--font-line-xl);
+    height: var(--font-line-xl);
+}
+
+.Zahi23kR {
+    line-height: var(--font-line-s);
+    font-size: var(--font-size-s);
+}
+
+.ddBWEZG3 {
+    line-height: var(--font-line-m);
+    font-size: var(--font-size-m);
+}
+
+.x3MqI4X3 {
+    line-height: var(--font-line-l);
+    font-size: var(--font-size-l);
+}
+
+.SuY6ONvM {
+    line-height: var(--font-line-xl);
+    font-size: var(--font-size-xl);
 }
 
 .jq37ROUh {
@@ -92,8 +146,11 @@ a {
     --font-size-l: 24px;
     --font-line-l: 32px;
     --font-l: var(--font-size-l) / var(--font-line-l);
+    --font-size-xl: 32px;
+    --font-line-xl: 40px;
+    --font-xl: var(--font-size-xl) / var(--font-line-xl);
     --navbar-height: 60px;
-    --sidebar-width: 300px;
+    --sidebar-width: 200px;
     --sidebar-width-collapsed: 80px;
     --sidebar-height: calc(100vh - var(--navbar-height));
     --color-animation-duration: 0.2s;
@@ -176,6 +233,18 @@ a {
 
 }
 
+.c8c9tNnM {
+    color: var(--primary-color);
+}
+
+.NZvy2zeV {
+    color: var(--primary-color);
+}
+
+.UhudI6M3 {
+    color: var(--inverted-primary-color);
+}
+
 .iSByeBxC {
     display: flex;
     flex-direction: column;
@@ -238,25 +307,13 @@ a {
   }
 }
 
-.AkDgTLwj {
+.QcNvzGmr {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
 
     height: calc(100vh - var(--navbar-height));
-}
-
-.c8c9tNnM {
-    color: var(--primary-color);
-}
-
-.NZvy2zeV {
-    color: var(--primary-color);
-}
-
-.UhudI6M3 {
-    color: var(--inverted-primary-color);
 }
 
 .r2IOVpZf {
@@ -278,19 +335,6 @@ a {
     transition-duration: var(--color-animation-duration);
 }
 
-.upAQT3YJ {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-}
-
-.xGJ3HqQ5,
-.ybMhI5s8 {
-    font-size: var(--font-size-m);
-    line-height: var(--font-line-m);
-    color: var(--primary-color);
-    transition-duration: var(--color-animation-duration);
-}
 
 ._BwVg2PM {
     font-size: var(--font-size-s);
@@ -316,8 +360,30 @@ a {
     z-index: 100;
 }
 
+.LFKxBI5s {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.LFKxBI5s span {
+    opacity: 1;
+    width: fit-content;
+    margin-left: 10px;
+    transition: width 0.3s ease, opacity 0.2s ease, visibility 0.3s ease;
+
+}
+
+.wP4KdFbh .LFKxBI5s span {
+    opacity: 0;
+    width: 0 !important;
+    visibility: hidden;
+    margin-left: 0;
+}
+
 .wP4KdFbh {
     width: var(--sidebar-width-collapsed) !important;
+
 }
 
 .QqYKtU9O {
@@ -334,6 +400,19 @@ a {
     flex-direction: column;
     gap: 10px;
 }
+
+
+
+.S4VlHnH8 {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
 .xhvDPArE {
     margin-left: 20px;
 }
@@ -342,6 +421,11 @@ a {
     .wP4KdFbh .QqYKtU9O {
         display: none;
     }
+
+    .wP4KdFbh .S4VlHnH8 {
+        display: none
+    }
+
     :root {
         --sidebar-width-collapsed: 10px;
         --sidebar-width: 150px;

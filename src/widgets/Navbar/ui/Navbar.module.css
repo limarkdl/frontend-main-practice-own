@@ -17,16 +17,3 @@
     transition-duration: var(--color-animation-duration);
 }
 
-.links {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-}
-
-.mainLink,
-.aboutLink {
-    font-size: var(--font-size-m);
-    line-height: var(--font-line-m);
-    color: var(--primary-color);
-    transition-duration: var(--color-animation-duration);
-}

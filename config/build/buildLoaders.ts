@@ -55,7 +55,6 @@ export function buildLoaders(
                     },
                 },
             },
-            // PostCSS and TailwindCSS integration
 
         ],
     };

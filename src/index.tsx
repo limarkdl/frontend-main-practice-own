@@ -7,6 +7,8 @@ import App from './app/App';
 
 const safeBasename = __BASENAME__ || '';
 
+console.log('safeBasename', safeBasename);
+
 render(
     <BrowserRouter basename={safeBasename}>
         <ErrorBoundary>

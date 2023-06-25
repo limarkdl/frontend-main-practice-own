@@ -66,3 +66,41 @@ export const OutlineBtDark: Story = {
     },
 };
 OutlineBtDark.decorators = [ThemeDecorator(Theme.DARK)];
+
+export const BackgroundBt: Story = {
+    name: 'Background',
+    args: {
+        theme: ButtonTheme.BACKGROUND,
+        children: 'Button',
+    },
+};
+BackgroundBt.decorators = [ThemeDecorator(Theme.LIGHT)];
+
+export const BackgroundBtDark: Story = {
+    name: 'Background Dark',
+    args: {
+        theme: ButtonTheme.BACKGROUND,
+        children: 'Button',
+    },
+};
+BackgroundBtDark.decorators = [ThemeDecorator(Theme.DARK)];
+
+export const SquaredBt: Story = {
+    name: 'Squared',
+    args: {
+        square: true,
+        theme: ButtonTheme.PRIMARY,
+        children: 'BT',
+    },
+};
+SquaredBt.decorators = [ThemeDecorator(Theme.LIGHT)];
+
+export const SquaredBtDark: Story = {
+    name: 'Squared Dark',
+    args: {
+        square: true,
+        theme: ButtonTheme.PRIMARY,
+        children: 'BT',
+    },
+};
+SquaredBtDark.decorators = [ThemeDecorator(Theme.DARK)];
