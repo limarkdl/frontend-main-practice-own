@@ -1,24 +1,25 @@
+
+
+
 .Sidebar {
-    height: calc(100dvh - var(--navbar-height));
     height: calc(100vh - var(--navbar-height));
+    height: calc(100dvh - var(--navbar-height));
     background: var(--sidebar-bg-color);
     color: var(--primary-color);
     position: relative;
     transition: width 0.3s;
     width: var(--sidebar-width) !important;
 }
-
 .ToggleBt {
     padding: 30px 4px;
     background: var(--inverted-bg-color);
     position: absolute;
-    bottom: calc(50dvh - var(--navbar-height));
     bottom: calc(50vh - var(--navbar-height));
+    bottom: calc(50dvh - var(--navbar-height));
     right: -10px;
     cursor: pointer;
     z-index: 100;
 }
-
 .Links {
     display: flex;
     white-space: nowrap;

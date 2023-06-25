@@ -17,7 +17,7 @@ const Navbar = ({ className }: NavbarProps) => {
 
             <h2 className={cls.name}>
                 {t('NameLogo')}
-                 🦆🦆🦆
+                 🦆
             </h2>
         </div>
     );
