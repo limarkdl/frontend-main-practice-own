@@ -21,11 +21,20 @@
 }
 
 
-.outline {
-    color: var(--inverted-primary-color);
+.outline,
+.outlineInverted {
     background: transparent;
-    border: 1px solid var(--inverted-primary-color);
     border-radius: 15px;
+}
+
+.outline {
+    border: 1px solid var(--inverted-primary-color);
+    color: var(--inverted-primary-color);
+}
+
+.outlineInverted {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .background {

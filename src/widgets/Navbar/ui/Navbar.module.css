@@ -6,7 +6,7 @@
     justify-content: space-between;
     padding: 0 25px;
     background: var(--inverted-bg-color);
-    transition-duration: var(--color-animation-duration);
+    transition: var(--color-animation-duration) ;
 }
 
 

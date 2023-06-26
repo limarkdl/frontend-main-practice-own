@@ -12,6 +12,7 @@ a {
     color: inherit;
 }
 
+
 .app {
     background: var(--bg-color);
     color: var(--inverted-primary-color);

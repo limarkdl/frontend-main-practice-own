@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AppLink from 'shared/ui/AppLink/AppLink';
 import { Simulate } from 'react-dom/test-utils';
 import click = Simulate.click;
+import Counter from "entities/Counter/ui/Counter";
 
 const MainPage = () => {
     const { t } = useTranslation();
@@ -31,6 +32,9 @@ const MainPage = () => {
                 </AppLink>
 
             </div>
+            <br />
+            <br />
+            <Counter />
 
         </div>
     );
