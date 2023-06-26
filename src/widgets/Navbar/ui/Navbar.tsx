@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import Modal from 'shared/ui/Modal/Modal';
 import { useCallback, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
 import cls from './Navbar.module.css';
 
 interface NavbarProps {
@@ -20,19 +22,19 @@ const Navbar = ({ className }: NavbarProps) => {
 
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
-
             <h2 className={cls.name}>
-                {t('NameLogo')}
-                🦆
+                🚧🦆🚧
             </h2>
+
             <Button
-                theme={ButtonTheme.OUTLINE_INVERTED}
+                theme={ButtonTheme.CLEAR_INVERTED}
                 onClick={onToggleModal}
             >
                 {t('Log in')}
             </Button>
+
             <Modal isOpen={isAuthModal} onClose={() => { onToggleModal(); }}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, aliquid animi aperiam consectetur dicta dolorum ex exercitationem explicabo fugit laudantium molestiae nihil nisi nobis numquam quis similique ut veritatis voluptates.
+                <FontAwesomeIcon style={{ margin: '24px' }} icon={faPersonDigging} size="7x" />
             </Modal>
         </div>
     );

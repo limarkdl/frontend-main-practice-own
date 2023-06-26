@@ -8,16 +8,32 @@
     padding: 0.5rem 1rem;
 }
 
+.clear,
+.clearInverted {
+    background: transparent;
+    box-sizing: border-box;
+}
+
 .clear {
     color: var(--inverted-primary-color);
-    background: none;
-    box-sizing: border-box;
+}
+
+.clearInverted {
+    color: var(--primary-color);
+}
+
+.primary, .primaryInverted {
+    border-radius: 15px;
 }
 
 .primary {
     color: var(--primary-color);
     background-color: var(--inverted-bg-color) ;
-    border-radius: 15px;
+}
+
+.primaryInverted {
+    color: var(--inverted-primary-color);
+    background-color: var(--bg-color);
 }
 
 

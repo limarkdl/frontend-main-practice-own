@@ -14,12 +14,6 @@ const MainPage = () => {
 
     return (
         <div>
-            <h2>{t('WEBSITE IS UNDER CONSTRUCTION')}</h2>
-            <br />
-            <FontAwesomeIcon icon={faPersonDigging} size="5x" />
-            <br />
-            <br />
-
             <h3>{t('DebugTools')}</h3>
             <br />
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
@@ -30,7 +24,6 @@ const MainPage = () => {
                         404 ERROR
                     </Button>
                 </AppLink>
-
             </div>
             <br />
             <br />

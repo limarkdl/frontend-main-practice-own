@@ -4,7 +4,9 @@ import cls from './Button.module.css';
 
 export enum ButtonTheme {
     CLEAR = 'clear',
+    CLEAR_INVERTED = 'clearInverted',
     PRIMARY = 'primary',
+    PRIMARY_INVERTED = 'primaryInverted',
     OUTLINE = 'outline',
     OUTLINE_INVERTED = 'outlineInverted',
     BACKGROUND = 'background',
