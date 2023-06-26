@@ -85,7 +85,6 @@ export const OutlineInvertedBtDark: Story = {
 };
 OutlineInvertedBtDark.decorators = [ThemeDecorator(Theme.DARK)];
 
-
 export const BackgroundBt: Story = {
     name: 'Background',
     args: {
