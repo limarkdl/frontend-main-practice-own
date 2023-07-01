@@ -18,6 +18,7 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
             theme={ButtonTheme.CLEAR}
             className={classNames('', {}, [className])}
             onClick={toggleTheme}
+            data-testid="theme-switcher"
         >
             {theme === Theme.DARK
                 ? (

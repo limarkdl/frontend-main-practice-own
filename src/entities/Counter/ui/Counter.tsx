@@ -1,7 +1,7 @@
-import Button, {ButtonSize, ButtonTheme} from 'shared/ui/Button/Button';
-import {useDispatch, useSelector} from 'react-redux';
-import {counterActions} from 'entities/Counter/model/slice/counterSlice';
-import {getCounterValue} from 'entities/Counter/model/selectors/getCounterValue/getCounterValue';
+import Button, { ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
+import { useDispatch, useSelector } from 'react-redux';
+import { counterActions } from 'entities/Counter/model/slice/counterSlice';
+import { getCounterValue } from 'entities/Counter/model/selectors/getCounterValue/getCounterValue';
 
 const Counter = () => {
     const dispatch = useDispatch();
@@ -19,7 +19,7 @@ const Counter = () => {
             <h3>
                 Test Redux counter:
                 <br />
-                <span style={{fontWeight: 'bolder'}}>{counterValue}</span>
+                <span style={{ fontWeight: 'bolder' }}>{counterValue}</span>
             </h3>
             <Button
                 square
