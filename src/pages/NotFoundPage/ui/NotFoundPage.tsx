@@ -15,8 +15,8 @@ const NotFoundPage = ({ className }: NotFoundPageProps) => {
     return (
         <div className={classNames(cls.NotFoundPage, {}, [className])}>
             <div className={cls.IconsContainer}>
-                <FontAwesomeIcon icon={faSearch} size="4x" />
-                <FontAwesomeIcon icon={faFaceFrown} size="8x" />
+                <FontAwesomeIcon icon={faSearch} size="3x" />
+                <FontAwesomeIcon icon={faFaceFrown} size="6x" />
             </div>
             <h1>Error 404</h1>
             {t('NotFoundPageText')}

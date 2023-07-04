@@ -25,7 +25,7 @@ const Navbar = ({ className }: NavbarProps) => {
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
             <h2 className={cls.name}>
-                🦆🚧
+                🦆
             </h2>
 
             <Button

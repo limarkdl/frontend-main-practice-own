@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
