@@ -35,6 +35,7 @@ const Navbar = ({ className }: NavbarProps) => {
 
             <Modal isOpen={isAuthModal} onClose={() => { onToggleModal(); }}>
                 <FontAwesomeIcon style={{ margin: '24px' }} icon={faPersonDigging} size="7x" />
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequuntur corporis cumque dolore ea eius excepturi expedita impedit itaque nemo non, odit, omnis placeat quibusdam recusandae reiciendis, sapiente tempora ut!
             </Modal>
         </div>
     );

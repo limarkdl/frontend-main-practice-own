@@ -2,6 +2,7 @@
 @import "./variables/global.css";
 @import "./themes/normal.css";
 @import "./themes/dark.css";
+@import "./themes/carrot.css";
 
 
 * {

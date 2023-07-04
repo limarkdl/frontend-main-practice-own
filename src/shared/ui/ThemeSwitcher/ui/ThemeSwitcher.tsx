@@ -2,7 +2,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faLightbulb, faCarrot } from '@fortawesome/free-solid-svg-icons';
 
 interface ThemeSwitcherProps {
     className?: string;
@@ -24,28 +24,51 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                 ? (
                     <>
                         <FontAwesomeIcon
-                            size="lg"
                             icon={faLightbulb}
                             style={{ opacity: 0.5 }}
                         />
                     &nbsp;|&nbsp;
                         <FontAwesomeIcon
-                            size="lg"
                             icon={faMoon}
                         />
+                        <br></br>
+                        <FontAwesomeIcon
+                            icon={faCarrot}
+                            style={{ opacity: 0.5 }}
+                        />
+
                     </>
                 )
-                : (
+                : theme === Theme.LIGHT ? (
                     <>
                         <FontAwesomeIcon
-                            size="lg"
                             icon={faLightbulb}
                         />
                     &nbsp;|&nbsp;
                         <FontAwesomeIcon
-                            size="lg"
                             icon={faMoon}
                             style={{ opacity: 0.5 }}
+                        />
+                        <br></br>
+                        <FontAwesomeIcon
+                            icon={faCarrot}
+                            style={{ opacity: 0.5 }}
+                        />
+                    </>
+                ) : (
+                    <>
+                        <FontAwesomeIcon
+                            icon={faLightbulb}
+                            style={{ opacity: 0.5 }}
+                        />
+                        &nbsp;|&nbsp;
+                        <FontAwesomeIcon
+                            icon={faMoon}
+                            style={{ opacity: 0.5 }}
+                        />
+                        <br></br>
+                        <FontAwesomeIcon
+                            icon={faCarrot}
                         />
                     </>
                 )}

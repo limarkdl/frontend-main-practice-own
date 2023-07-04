@@ -1,10 +1,9 @@
-.app_dark_theme {
+.app_carrot_theme {
     --bg-color: #1e1e1e;
     --sidebar-bg-color: #323232;
-    --inverted-bg-color: #cb2138;
+    --inverted-bg-color: #cb5500;
     --primary-color: #e5e5df;
     --secondary-color: #ffffff;
     --inverted-primary-color: #e3dfdf;
-    --inverted-secondary-color: #f31d3b;
+    --inverted-secondary-color: #ff7300;
 }
-
