@@ -1,9 +1,8 @@
 
-
-
 .Sidebar {
     height: calc(100vh - var(--navbar-height));
-    height: calc(100dvh - var(--navbar-height));
+    min-height: calc(100dvh - var(--navbar-height));
+    bottom: calc(50dvh - var(--navbar-height));
     background: var(--sidebar-bg-color);
     color: var(--primary-color);
     position: relative;
@@ -15,7 +14,6 @@
     background: var(--inverted-bg-color);
     position: absolute;
     bottom: calc(50vh - var(--navbar-height));
-    bottom: calc(50dvh - var(--navbar-height));
     right: -10px;
     cursor: pointer;
 }

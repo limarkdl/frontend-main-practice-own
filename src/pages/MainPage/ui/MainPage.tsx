@@ -1,13 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { BugButton } from 'app/providers/ErrorBoundary';
-import { Link } from 'react-router-dom';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
-import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AppLink from 'shared/ui/AppLink/AppLink';
-import { Simulate } from 'react-dom/test-utils';
-import click = Simulate.click;
-import Counter from 'entities/Counter/ui/Counter';
 
 const MainPage = () => {
     const { t } = useTranslation();
@@ -25,9 +19,6 @@ const MainPage = () => {
                     </Button>
                 </AppLink>
             </div>
-            <br />
-            <br />
-            <Counter />
 
         </div>
     );

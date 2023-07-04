@@ -22,3 +22,21 @@ export const SidebarElDark: Story = {
     name: 'Sidebar Dark',
 };
 SidebarElDark.decorators = [ThemeDecorator(Theme.DARK)];
+
+export const SidebarElOpened: Story = {
+    name: 'Sidebar Opened',
+    args: {
+        isCollapsed: false,
+    },
+
+};
+SidebarElOpened.decorators = [ThemeDecorator(Theme.LIGHT)];
+
+export const SidebarElDarkOpened: Story = {
+    name: 'Sidebar Dark Opened',
+    args: {
+        isCollapsed: false,
+    },
+
+};
+SidebarElDarkOpened.decorators = [ThemeDecorator(Theme.DARK)];

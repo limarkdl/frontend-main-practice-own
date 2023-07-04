@@ -12,11 +12,12 @@ import cls from './Sidebar.module.css';
 
 interface SidebarProps {
     className?: string;
+    isCollapsed?: boolean;
 }
 
-export const Sidebar = ({ className }: SidebarProps) => {
+export const Sidebar = ({ className, isCollapsed = true }: SidebarProps) => {
     const { t } = useTranslation();
-    const [collapsed, setCollapsed] = useState(true);
+    const [collapsed, setCollapsed] = useState(isCollapsed);
 
     const onToggle = () => {
         setCollapsed((prev) => !prev);

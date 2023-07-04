@@ -1,45 +1,37 @@
-import Button, { ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
+import { Button } from 'shared/ui/Button/Button';
 import { useDispatch, useSelector } from 'react-redux';
-import { counterActions } from 'entities/Counter/model/slice/counterSlice';
-import { getCounterValue } from 'entities/Counter/model/selectors/getCounterValue/getCounterValue';
+import { useTranslation } from 'react-i18next';
+import { counterActions } from '../model/slice/counterSlice';
+import { getCounterValue } from '../model/selectors/getCounterValue/getCounterValue';
 
-const Counter = () => {
+export const Counter = () => {
     const dispatch = useDispatch();
     const counterValue = useSelector(getCounterValue);
-    const decrement = () => {
-        dispatch(counterActions.decrement());
-    };
+    const { t } = useTranslation();
 
     const increment = () => {
         dispatch(counterActions.increment());
     };
 
+    const decrement = () => {
+        dispatch(counterActions.decrement());
+    };
+
     return (
         <div>
-            <h3>
-                Test Redux counter:
-                <br />
-                <span style={{ fontWeight: 'bolder' }}>{counterValue}</span>
-            </h3>
+            <h1 data-testid="value-title">{counterValue}</h1>
             <Button
-                square
-                size={ButtonSize.L}
-                theme={ButtonTheme.PRIMARY}
+                onClick={increment}
+                data-testid="increment-btn"
+            >
+                {t('increment')}
+            </Button>
+            <Button
+                data-testid="decrement-btn"
                 onClick={decrement}
             >
-                -
-            </Button>
-            &nbsp;
-            <Button
-                square
-                size={ButtonSize.L}
-                theme={ButtonTheme.PRIMARY}
-                onClick={increment}
-            >
-                +
+                {t('decrement')}
             </Button>
         </div>
     );
 };
-
-export default Counter;
