@@ -3,6 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-
-    height: calc(100vh - var(--navbar-height));
+    height: calc(100dvh - var(--navbar-height));
+    width: max-content;
 }

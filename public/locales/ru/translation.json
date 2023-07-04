@@ -12,5 +12,7 @@
   "DebugTools": "Инструменты разработчика:",
   "UNDER CONSTRUCTION": "UNDER CONSTRUCTION",
   "SITE UNDER CONSTRUCTION": "SITE UNDER CONSTRUCTION",
-  "Log in": "Log in"
+  "Log in": "Войти",
+  "Log_in_Btn": "Войти",
+  "Authorization": "Авторизация"
 }

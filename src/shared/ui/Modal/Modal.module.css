@@ -25,7 +25,7 @@
     transition: 0.3s transform ease, 0.3s opacity ease;
     transform: scale(0.6);
     opacity: 0;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .opened {
@@ -33,7 +33,9 @@
     opacity: 1;
     z-index: 10;
     transition: 0.3s opacity ease;
+    
 }
+
 
 .opened .Content {
     transform: scale(1);
@@ -49,5 +51,26 @@
 
 .isClosing {
     opacity: 0;
-    transition: 0.3s transform ease, 0.3s opacity ease;
+    transition: 0.3s transform ease, 0.3s opacity ease, 0.3s backdrop-filter ease;
+}
+.CloseButton {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    font-size: 11px;
+    color: var(--inverted-bg-color);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.CloseButton:hover {
+    color: var(--overlay-color);
+    background-color: var(--primary-color);
 }

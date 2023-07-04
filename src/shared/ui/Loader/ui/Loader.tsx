@@ -6,12 +6,8 @@ interface LoaderProps {
 }
 
 const Loader = ({ className }: LoaderProps) => (
-    <div
-        className={classNames('lds-facebook', {}, [className])}
-    >
-        <div />
-        <div />
-        <div />
+    <div className="loader">
+        <div className="justify-content-center jimu-primary-loading" />
     </div>
 );
 

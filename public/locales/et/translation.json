@@ -10,7 +10,7 @@
   "SidebarToggleBt": ">>>",
   "NotFoundPageText": "Lehte ei leitud",
   "DebugTools": "Debug tööriistad:",
-  "UNDER CONSTRUCTION": "UNDER CONSTRUCTION",
-  "SITE UNDER CONSTRUCTION": "SITE UNDER CONSTRUCTION",
-  "Log in": "Log in"
+  "Log in": "Logi sisse",
+  "Log_in_Btn": "Logi sisse",
+  "Authorization": "Autoriseerimine"
 }

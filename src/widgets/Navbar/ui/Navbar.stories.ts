@@ -22,3 +22,8 @@ export const NavbarElDark: Story = {
     name: 'Navbar Dark',
 };
 NavbarElDark.decorators = [ThemeDecorator(Theme.DARK)];
+
+export const NavbarElCarrot: Story = {
+    name: 'Navbar Carrot',
+};
+NavbarElCarrot.decorators = [ThemeDecorator(Theme.CARROT)];

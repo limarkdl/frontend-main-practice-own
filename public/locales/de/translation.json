@@ -10,7 +10,7 @@
   "SidebarToggleBt": ">>>",
   "NotFoundPageText": "Seite nicht gefunden",
   "DebugTools": "Debug-Tools:",
-  "UNDER CONSTRUCTION": "UNDER CONSTRUCTION",
-  "SITE UNDER CONSTRUCTION": "SITE UNDER CONSTRUCTION",
-  "Log in": "Log in"
+  "Log in": "Anmeldung",
+  "Log_in_Btn": "Anmeldung",
+  "Authorization": "Genehmigung"
 }

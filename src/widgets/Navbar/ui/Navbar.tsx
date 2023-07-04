@@ -1,10 +1,8 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
-import Modal from 'shared/ui/Modal/Modal';
 import { useCallback, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPersonDigging } from '@fortawesome/free-solid-svg-icons';
+import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.css';
 
 interface NavbarProps {
@@ -16,27 +14,31 @@ const Navbar = ({ className }: NavbarProps) => {
 
     const [isAuthModal, setIsAuthModal] = useState(false);
 
-    const onToggleModal = useCallback(() => {
-        setIsAuthModal((prev) => !prev);
+    const onCloseModal = useCallback(() => {
+        setIsAuthModal(false);
+    }, []);
+
+    const onShowModal = useCallback(() => {
+        setIsAuthModal(true);
     }, []);
 
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
             <h2 className={cls.name}>
-                🚧🦆🚧
+                🦆🚧
             </h2>
 
             <Button
                 theme={ButtonTheme.CLEAR_INVERTED}
-                onClick={onToggleModal}
+                onClick={onShowModal}
             >
                 {t('Log in')}
             </Button>
 
-            <Modal isOpen={isAuthModal} onClose={() => { onToggleModal(); }}>
-                <FontAwesomeIcon style={{ margin: '24px' }} icon={faPersonDigging} size="7x" />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequuntur corporis cumque dolore ea eius excepturi expedita impedit itaque nemo non, odit, omnis placeat quibusdam recusandae reiciendis, sapiente tempora ut!
-            </Modal>
+            <LoginModal
+                isOpen={isAuthModal}
+                onClose={onCloseModal}
+            />
         </div>
     );
 };

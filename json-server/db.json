@@ -1,10 +1,38 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "username": "admin",
+      "password": "12345",
+      "id": 2
+    }
   ],
   "comments": [
-    { "id": 1, "body": "My first comment", "postId": 1 },
-    { "id": 2, "body": "My second comment", "postId": 2 }
+    {
+      "id": 1,
+      "body": "My first comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "My second comment",
+      "postId": 2
+    }
   ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "username": "limarkdl",
+      "password": "12345"
+    }
+  ]
 }

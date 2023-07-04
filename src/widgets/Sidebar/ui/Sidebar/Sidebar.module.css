@@ -1,7 +1,6 @@
 
 .Sidebar {
-    height: calc(100vh - var(--navbar-height));
-    max-height: calc(100dvh - var(--navbar-height));
+    height: calc(100dvh - var(--navbar-height));
     background: var(--sidebar-bg-color);
     color: var(--primary-color);
     position: relative;
@@ -13,9 +12,11 @@
     padding: 30px 4px;
     background: var(--inverted-bg-color);
     position: absolute;
-    bottom: calc(50vh - var(--navbar-height));
+    top: calc(50dvh - 1.5 * var(--navbar-height));
     right: -10px;
     cursor: pointer;
+    transition: none;
+    transition: background var(--color-animation-duration);
 }
 .Links {
     display: flex;
