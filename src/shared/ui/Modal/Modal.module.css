@@ -22,7 +22,7 @@
 .Content {
     padding: 20px;
     border-radius: 12px;
-    background: #a4a4a4;
+    background: var(--sidebar-bg-color);
     transition: 0.3s transform ease, 0.3s opacity ease;
     transform: scale(0.6);
     opacity: 0;
