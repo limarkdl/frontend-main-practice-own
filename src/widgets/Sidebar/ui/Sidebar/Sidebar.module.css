@@ -10,12 +10,11 @@
 
 .ToggleBt {
     padding: 30px 4px;
-    background: var(--inverted-bg-color);
+    background: #313131;
     position: absolute;
     top: calc(50dvh - 1.5 * var(--navbar-height));
     right: -10px;
     cursor: pointer;
-    transition: none;
     transition: background var(--color-animation-duration);
 }
 .Links {
@@ -75,8 +74,6 @@
     margin-left: 0;
 }
 
-
-
 .lang {
     margin-left: 20px;
 }
@@ -89,6 +86,8 @@
     .collapsed .Items {
         display: none
     }
+
+
 
     :root {
         --sidebar-width-collapsed: 10px;

@@ -27,6 +27,7 @@
   left: 0;
   padding: 0.8em;
   margin-left: 0.5em;
+  border-radius: 1em;
   pointer-events: none;
   transition: all 0.3s ease;
   color: rgb(165, 165, 165);

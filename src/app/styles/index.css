@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import "./variables/global.css";
-@import "./themes/normal.css";
 @import "./themes/dark.css";
+@import "./themes/normal.css";
 @import "./themes/carrot.css";
 
 
@@ -45,6 +45,13 @@ a {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
+    min-width: calc(92vw - var(--sidebar-width-collapsed));
+}
+
+@media screen and (min-width: 1280px) {
+    .page-wrapper {
+        min-width: 0;
+    }
 }
 
 /* PRINTER OPTIMIZATION */

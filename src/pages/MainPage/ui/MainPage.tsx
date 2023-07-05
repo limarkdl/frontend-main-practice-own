@@ -9,7 +9,7 @@ const MainPage = () => {
 
     return (
         <div>
-            <h3>{t('DebugTools')}</h3>
+            <h1>{t('MainPage')}</h1>
             <br />
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
                 <BugButton />

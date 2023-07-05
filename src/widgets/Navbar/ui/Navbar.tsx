@@ -5,6 +5,7 @@ import { useCallback, useState } from 'react';
 import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.css';
 
+
 interface NavbarProps {
     className?: string;
 }
@@ -25,14 +26,14 @@ const Navbar = ({ className }: NavbarProps) => {
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
             <h2 className={cls.name}>
-                🦆
+                IKostin
             </h2>
 
             <Button
                 theme={ButtonTheme.CLEAR_INVERTED}
                 onClick={onShowModal}
             >
-                {t('Log in')}
+                {t('Log_in')}
             </Button>
 
             <LoginModal
