@@ -45,6 +45,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: node-app
+      - name: List directory
+        run: ls -R
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -53,4 +55,4 @@ jobs:
           app-name: 'limarkdl-UCLan-Merch-Shop'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_29E5DCC69AC7470D8F700A00DE71BDDB }}
-          package: .
+          package: './build'
