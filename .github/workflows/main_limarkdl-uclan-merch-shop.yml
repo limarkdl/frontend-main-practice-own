@@ -1,6 +1,3 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
-
 name: Build and deploy Node.js app to Azure Web App - limarkdl-UCLan-Merch-Shop
 
 on:
@@ -21,17 +18,26 @@ jobs:
         with:
           node-version: '18.x'
 
+      # Cache node modules
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+
       - name: npm install, build, and test
         run: |
           npm install --legacy-peer-deps
           npm run build --if-present
           npm run test --if-present
-      
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: .
+          path: ./build
 
   deploy:
     runs-on: ubuntu-latest
@@ -41,14 +47,10 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v2
         with:
           name: node-app
-          path: ./build
-
-      - name: List directory
-        run: ls -R
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -57,4 +59,4 @@ jobs:
           app-name: 'limarkdl-UCLan-Merch-Shop'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_29E5DCC69AC7470D8F700A00DE71BDDB }}
-          package: './build'
+          package: './'
