@@ -7,7 +7,7 @@
     "start": "webpack serve --env port=3000 --env mode=development",
     "start:dev:server": "node ./json-server/index.js",
     "start:prod": "webpack serve --env port=3000 --env mode=production",
-    "build:prod": "webpack --env mode=production",
+    "build": "webpack --env mode=production",
     "build:prod:Github": "webpack --env mode=production --env basenameMode=GithubPages",
     "build:prod:Vesta": "webpack --env mode=production --env basenameMode=Vesta",
     "build:prod:Xampp": "webpack --env mode=production --env basenameMode=Xampp",
