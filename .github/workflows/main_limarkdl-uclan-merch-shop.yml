@@ -1,4 +1,4 @@
-name: Build and deploy Node.js app to Azure Web App - limarkdl-UCLan-Merch-Shop
+name: Microsoft Azure CI/CD
 
 on:
   push:
@@ -35,7 +35,7 @@ jobs:
       - name: Doublecheck for catalogues
         run: | 
           ls ./build
-          tree
+          tree -I 'node_modules'
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
