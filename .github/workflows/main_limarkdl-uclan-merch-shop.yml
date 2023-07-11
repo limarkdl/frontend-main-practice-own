@@ -32,8 +32,13 @@ jobs:
           npm run build --if-present
           npm run test --if-present
 
-      - name: Copy public (translations) to ./build
-        run: cp -r ./public/locales/. ./build/locales/
+      - name: Copy public (locales) to ./build
+        run: cp -R ./public/locales ./build/locales
+
+      - name: Doublecheck for catalogues
+        run: | 
+          ls ./build
+          tree
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -63,4 +68,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_29E5DCC69AC7470D8F700A00DE71BDDB }}
           package: './'
-          additional-package: ./locales
+          additional-package: './locales'
