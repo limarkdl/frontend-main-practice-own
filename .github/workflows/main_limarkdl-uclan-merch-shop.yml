@@ -32,7 +32,10 @@ jobs:
           npm run build --if-present
           npm run test --if-present
 
-      - name: Doublecheck for catalogues
+      - name: Inserting azure config to ./build
+        run: cp -R ./azureConfig/web.config ./build
+
+      - name: Double-check for catalogues
         run: | 
           ls ./build
           tree -I 'node_modules'
@@ -78,6 +81,6 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript:
-            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_LIMARKDLUCLANSHOPSTATIC_BLOB_ACCESS_KEY}} --destination public --source ./public/locales --type block
+            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_LIMARKDLUCLANSHOPSTATIC_BLOB_ACCESS_KEY}} --destination public --source ./public/locales --type block --overwrite
       - name: Log out
         run: az logout
