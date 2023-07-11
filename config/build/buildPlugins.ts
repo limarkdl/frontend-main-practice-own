@@ -25,6 +25,5 @@ export function buildPlugins({ paths, isDevelopment, basenameString }: BuildOpti
             __BASENAME__: JSON.stringify(basenameString),
         }),
         new webpack.HotModuleReplacementPlugin(),
-        new BundleAnalyzerPlugin(),
     ];
 }
