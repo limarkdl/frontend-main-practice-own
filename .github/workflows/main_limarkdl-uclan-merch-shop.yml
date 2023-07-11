@@ -32,9 +32,6 @@ jobs:
           npm run build --if-present
           npm run test --if-present
 
-      - name: Copy public (locales) to ./build
-        run: cp -R ./public/locales ./build/locales
-
       - name: Doublecheck for catalogues
         run: | 
           ls ./build
@@ -68,4 +65,20 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_29E5DCC69AC7470D8F700A00DE71BDDB }}
           package: './'
-          additional-package: './locales'
+
+  upload_to_blob:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Upload to blob
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az storage blob upload-batch --account-name limarkdluclanshopstatic -s ./public/locales -d public/locales --type block
+
+      - name: Log out
+        run: az logout
