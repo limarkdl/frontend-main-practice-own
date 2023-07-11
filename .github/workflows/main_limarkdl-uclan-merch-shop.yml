@@ -33,7 +33,7 @@ jobs:
           npm run test --if-present
 
       - name: Copy public (translations) to ./build
-        run: cp -r ./public ./build/
+        run: cp -r ./public/locales ./build/
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
