@@ -78,7 +78,6 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_CREDENTIALS }} -s ./public/locales -d public/locales --type block
-
+            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_CREDENTIALS }} --destination public --source ./public/locales
       - name: Log out
         run: az logout
