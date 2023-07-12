@@ -81,6 +81,6 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript:
-            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_LIMARKDLUCLANSHOPSTATIC_BLOB_ACCESS_KEY}} --destination public --source ./public/locales --type block --overwrite
+            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_LIMARKDLUCLANSHOPSTATIC_BLOB_ACCESS_KEY}} --destination public --source ./public/azureLocalesWrapper --type block --overwrite
       - name: Log out
         run: az logout
