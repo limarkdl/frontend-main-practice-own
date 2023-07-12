@@ -12,13 +12,13 @@ export const LoginForm = ({ className }: LoginFormProps) => {
 
     return (
         <div className={classNames(cls.LoginForm, {}, [className])}>
-            <h3 style={{ textAlign: 'center', marginBottom: '14px' }}>{t('Authorization')}</h3>
+            <p style={{ fontSize: '24px', textAlign: 'center', marginBottom: '14px' }}>{t('Authorization')}</p>
             <div className={cls.inputGroup}>
-                <input type="text" required autoComplete="off" />
+                <input name="username" type="text" required autoComplete="off" />
                 <label htmlFor="username">Username</label>
             </div>
             <div className={cls.inputGroup}>
-                <input type="password" required autoComplete="off" />
+                <input name="password" type="password" required autoComplete="off" />
                 <label htmlFor="password">Password</label>
             </div>
             <Button className={cls.loginBtn} theme={ButtonTheme.PRIMARY}>
