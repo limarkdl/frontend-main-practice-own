@@ -1,4 +1,4 @@
-UCLan Merch Shop Challenge: A Journey of Exploration and Learning
+# UCLan Merch Shop Challenge: A Journey of Exploration and Learning
 
 🚀 Greetings, and welcome to my ambitious project for this summer break, a testament to my foray into full-stack development: the UCLan Merch Shop Challenge. This venture isn't about producing a typical educational project, but rather a hands-on attempt to create an application of the highest quality that I, as a beginner, can deliver. My goal is to learn, explore, and experiment with modern web development practices, ultimately creating an optimized and scalable e-commerce merch shop.
 

@@ -12,7 +12,7 @@ const AboutPage = () => {
             <p>{t('AboutPageDescription')}</p>
             <a
                 target="_blank"
-                href="https://github.com/limarkdl/frontend-main-practice-own"
+                href="https://github.com/limarkdl-private/frontend-main-practice-own"
                 rel="noreferrer"
             >
                 <span style={{ color: 'var(--inverted-bg-color)' }}>
