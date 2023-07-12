@@ -1,8 +1,8 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { faFaceFrown } from '@fortawesome/free-regular-svg-icons';
+
+import { FaFaceFrown } from "react-icons/fa6";
+import {FaSearch} from "react-icons/fa";
 import cls from './NotFoundPage.module.css';
 
 interface NotFoundPageProps {
@@ -15,8 +15,8 @@ const NotFoundPage = ({ className }: NotFoundPageProps) => {
     return (
         <div className={classNames(cls.NotFoundPage, {}, [className])}>
             <div className={cls.IconsContainer}>
-                <FontAwesomeIcon icon={faSearch} size="3x" />
-                <FontAwesomeIcon icon={faFaceFrown} size="6x" />
+                <FaSearch size="48px" />
+                <FaFaceFrown size="124px" />
             </div>
             <h1>Error 404</h1>
             {t('NotFoundPageText')}

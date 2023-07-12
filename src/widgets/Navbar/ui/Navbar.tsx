@@ -36,6 +36,7 @@ const Navbar = ({ className }: NavbarProps) => {
             <Button
                 theme={ButtonTheme.CLEAR_INVERTED}
                 onClick={onShowModal}
+                style={{ marginRight: '-16px' }}
             >
                 {t('Log_in')}
             </Button>

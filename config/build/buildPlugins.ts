@@ -14,9 +14,7 @@ export function buildPlugins({ paths, isDevelopment, basenameString }: BuildOpti
     return [
         new HtmlWebpackPlugin({
             template: paths.htmlTemplate,
-        }),
-        new webpack.DefinePlugin({
-
+            minify: true,
         }),
         new webpack.ProgressPlugin(),
         new MiniCssExtractPlugin(miniCssExtractOptions),
@@ -25,5 +23,6 @@ export function buildPlugins({ paths, isDevelopment, basenameString }: BuildOpti
             __BASENAME__: JSON.stringify(basenameString),
         }),
         new webpack.HotModuleReplacementPlugin(),
+        new BundleAnalyzerPlugin(),
     ];
 }

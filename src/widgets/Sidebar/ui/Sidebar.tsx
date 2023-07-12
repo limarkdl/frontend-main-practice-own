@@ -2,11 +2,9 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { useState } from 'react';
 import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
-
 import { LangSwitcher } from 'shared/ui/LangSwitcher';
 import AppLink from 'shared/ui/AppLink/AppLink';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faCircleInfo } from '@fortawesome/free-solid-svg-icons';
+import {FaHome, FaInfoCircle} from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import cls from './Sidebar.module.css';
 
@@ -35,13 +33,13 @@ export const Sidebar = ({ className, isCollapsed = true }: SidebarProps) => {
             <div className={cls.Items}>
 
                 <AppLink className={cls.Links} to="/">
-                    <FontAwesomeIcon icon={faHome} size="xl" />
+                    <FaHome size="28px" />
                     <span>
                         {t('MainLink')}
                     </span>
                 </AppLink>
                 <AppLink className={cls.Links} to="/about">
-                    <FontAwesomeIcon icon={faCircleInfo} size="xl" />
+                    <FaInfoCircle  size="24px" />
                     <span>
                         {t('AboutLink')}
                     </span>
