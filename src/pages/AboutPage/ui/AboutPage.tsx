@@ -14,7 +14,7 @@ const AboutPage = () => {
             <h1>{t('AboutPage')}</h1>
             <Separator />
 
-            <p style={{marginBottom: '20px'}}>{t('AboutPageDescription')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescription')}</p>
             <a
                 target="_blank"
                 href="https://github.com/limarkdl-private/frontend-main-practice-own"
@@ -26,7 +26,7 @@ const AboutPage = () => {
             </a>
             <Separator />
             {/* NEVER DO LIKE THIS, IT"S TEMPORARY JUST FOR BEAUTY AND CONTENT */}
-            <h2 style={{marginBottom: '20px'}}>Already used technologies & concepts:</h2>
+            <h2 style={{ marginBottom: '20px' }}>Already used technologies & concepts:</h2>
             <ul>
                 <li style={styledLI}>"Feature-Sliced Design" methodology</li>
                 <li style={styledLI}>Webpack 5</li>

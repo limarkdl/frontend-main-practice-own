@@ -12,7 +12,7 @@ export const LoginForm = ({ className }: LoginFormProps) => {
 
     return (
         <div className={classNames(cls.LoginForm, {}, [className])}>
-            <h3 style={{textAlign: 'center', marginBottom: "14px"}}>{t('Authorization')}</h3>
+            <h3 style={{ textAlign: 'center', marginBottom: '14px' }}>{t('Authorization')}</h3>
             <div className={cls.inputGroup}>
                 <input type="text" required autoComplete="off" />
                 <label htmlFor="username">Username</label>
