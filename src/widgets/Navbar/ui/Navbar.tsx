@@ -29,6 +29,7 @@ const Navbar = ({ className }: NavbarProps) => {
                     src="https://limarkdluclanshopstatic.blob.core.windows.net/public/logo.png"
                     alt="Logo"
                     height="100%"
+                    width="auto"
                 />
 
             </div>
