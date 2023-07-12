@@ -23,10 +23,10 @@ export const SidebarElDark: Story = {
 };
 SidebarElDark.decorators = [ThemeDecorator(Theme.DARK)];
 
-export const SidebarElCarrot: Story = {
-    name: 'Sidebar Carrot',
+export const SidebarElDarkBlue: Story = {
+    name: 'Sidebar Dark Blue',
 };
-SidebarElCarrot.decorators = [ThemeDecorator(Theme.CARROT)];
+SidebarElDarkBlue.decorators = [ThemeDecorator(Theme.DARK_BLUE)];
 
 export const SidebarElOpened: Story = {
     name: 'Sidebar Opened',
@@ -46,11 +46,10 @@ export const SidebarElDarkOpened: Story = {
 };
 SidebarElDarkOpened.decorators = [ThemeDecorator(Theme.DARK)];
 
-
-export const SidebarElCarrotOpened: Story = {
-    name: 'Sidebar Carrot Opened',
+export const SidebarElDarkBlueOpened: Story = {
+    name: 'Sidebar Dark Blue Opened',
     args: {
         isCollapsed: false,
     },
 };
-SidebarElCarrotOpened.decorators = [ThemeDecorator(Theme.CARROT)];
+SidebarElDarkBlueOpened.decorators = [ThemeDecorator(Theme.DARK_BLUE)];

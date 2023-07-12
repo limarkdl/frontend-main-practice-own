@@ -2,11 +2,11 @@
 @import "./variables/global.css";
 @import "./themes/dark.css";
 @import "./themes/normal.css";
-@import "./themes/carrot.css";
+@import "./themes/darkblue.css";
 
 
 * {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
 a {

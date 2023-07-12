@@ -1,0 +1,6 @@
+.Separator {
+    width: 50%;
+    margin: 10px 0 20px 0;
+    height: 4px;
+    background-color: var(--inverted-bg-color);
+}

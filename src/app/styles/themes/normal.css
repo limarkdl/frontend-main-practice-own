@@ -1,9 +1,10 @@
 .app_light_theme {
     --bg-color: #f2f2f5;
-    --inverted-bg-color: #505050;
+    --inverted-bg-color: #34516C;
+    --inverted-bg-color-edge: #273d50;
     --sidebar-bg-color: #383838;
-    --primary-color: #ffd7c7;
+    --primary-color: #F5F5F5;
     --secondary-color: #ffffff;
-    --inverted-primary-color: #282828;
+    --inverted-primary-color: #383838;
     --inverted-secondary-color: #32cd32;
 }

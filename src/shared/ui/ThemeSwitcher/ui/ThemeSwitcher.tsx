@@ -3,7 +3,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faLightbulb, faCarrot } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faLightbulb, faDroplet } from '@fortawesome/free-solid-svg-icons';
 
 interface ThemeSwitcherProps {
     className?: string;
@@ -32,9 +32,9 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                         <FontAwesomeIcon
                             icon={faMoon}
                         />
-                        <br></br>
+                        <br />
                         <FontAwesomeIcon
-                            icon={faCarrot}
+                            icon={faDroplet}
                             style={{ opacity: 0.5 }}
                         />
 
@@ -50,9 +50,9 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                             icon={faMoon}
                             style={{ opacity: 0.5 }}
                         />
-                        <br></br>
+                        <br />
                         <FontAwesomeIcon
-                            icon={faCarrot}
+                            icon={faDroplet}
                             style={{ opacity: 0.5 }}
                         />
                     </>
@@ -67,9 +67,9 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                             icon={faMoon}
                             style={{ opacity: 0.5 }}
                         />
-                        <br></br>
+                        <br />
                         <FontAwesomeIcon
-                            icon={faCarrot}
+                            icon={faDroplet}
                         />
                     </>
                 )}

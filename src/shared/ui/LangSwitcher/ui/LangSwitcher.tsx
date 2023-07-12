@@ -35,11 +35,11 @@ const LanguageSwitcher = () => {
 
     const languageOptions = [
         { value: 'en', label: 'EN' },
-        { value: 'ru', label: 'RU' },
         { value: 'gr', label: 'GR' },
+        { value: 'ru', label: 'RU' },
+        { value: 'fr', label: 'FR' },
         { value: 'et', label: 'ET' },
         { value: 'es', label: 'ES' },
-        { value: 'fr', label: 'FR' },
         { value: 'de', label: 'DE' },
     ];
 

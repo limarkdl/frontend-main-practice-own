@@ -3,6 +3,7 @@
     height: var(--navbar-height);
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
     padding: 0 25px;
     background: var(--inverted-bg-color);
@@ -11,6 +12,10 @@
 
 
 .name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 75%;
     font-size: var(--font-size-l);
     line-height: var(--font-line-l);
     color: var(--primary-color);

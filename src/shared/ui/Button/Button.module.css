@@ -6,6 +6,7 @@
     transition: all 0.3s ease;
     border: none;
     padding: 0.5rem 1rem;
+    white-space: nowrap;
 }
 
 
@@ -24,7 +25,7 @@
 }
 
 .primary, .primaryInverted {
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .primary {
@@ -41,7 +42,7 @@
 .outline,
 .outlineInverted {
     background: transparent;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .outline {

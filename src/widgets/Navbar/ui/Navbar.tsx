@@ -5,7 +5,6 @@ import { useCallback, useState } from 'react';
 import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.css';
 
-
 interface NavbarProps {
     className?: string;
 }
@@ -25,9 +24,14 @@ const Navbar = ({ className }: NavbarProps) => {
 
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
-            <h2 className={cls.name}>
-                IKostin
-            </h2>
+            <div className={cls.name}>
+                <img
+                    src="https://limarkdluclanshopstatic.blob.core.windows.net/public/logo.png"
+                    alt="Logo"
+                    height="100%"
+                />
+
+            </div>
 
             <Button
                 theme={ButtonTheme.CLEAR_INVERTED}
