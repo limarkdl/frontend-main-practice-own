@@ -16,7 +16,7 @@ const MainPage = () => {
                 <br />
                 <AppLink to="/abrakadabra">
                     <Button theme={ButtonTheme.PRIMARY}>
-                        404 ERROR
+                        {t('404 ERROR')}
                     </Button>
                 </AppLink>
             </div>

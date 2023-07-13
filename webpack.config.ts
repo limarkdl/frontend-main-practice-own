@@ -16,6 +16,7 @@ export default (env: BuildEnv) => {
     // eslint-disable-next-line no-nested-ternary
     const basenameString = env.basenameMode === 'GithubPages'
         ? '/frontend-main-practice-own/'
+        // eslint-disable-next-line no-nested-ternary
         : env.basenameMode === 'Vesta'
             ? '/~ikostin/TestReactDeployment/'
             : env.basenameMode === 'Xampp' ? '/myProjects/UlbiTV/' : '';

@@ -1,18 +1,17 @@
 {
-  "NameLogo": "IKostin",
-  "MainLink": "Главная",
   "AboutLink": "О нас",
-  "MainPage": "Главная страница",
+  "Authorization": "Авторизация",
   "BugBt": "Краш",
-  "PageErrorMessage": "Что-то пошло не так",
+  "DebugTools": "Инструменты разработчика:",
+  "Log_in": "Войти",
+  "MainLink": "Главная",
+  "MainPage": "Главная страница",
+  "NameLogo": "IKostin",
+  "NotFoundPageText": "Страница не найдена",
   "PageErrorApologizing": "Приносим извинения за причиненные неудобства",
+  "PageErrorMessage": "Что-то пошло не так",
   "PageErrorTryAgain": "Перезагрузить страницу",
   "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Страница не найдена",
-  "DebugTools": "Инструменты разработчика:",
-  "UNDER CONSTRUCTION": "UNDER CONSTRUCTION",
-  "SITE UNDER CONSTRUCTION": "SITE UNDER CONSTRUCTION",
-  "Log_in": "Войти",
-  "Log_in_Btn": "Войти",
-  "Authorization": "Авторизация"
+  "password": "Пароль",
+  "username": "Пользователь"
 }

@@ -1,9 +1,9 @@
-
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-const Select = React.lazy(() => import('react-select'));
 
 import cls from './LangSwitcher.module.css';
+
+const Select = React.lazy(() => import('react-select'));
 
 const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
@@ -65,7 +65,6 @@ const LanguageSwitcher = () => {
                 }}
 
             />
-
 
         </div>
 

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "start": "webpack serve --env port=3000 --env mode=development",
     "start:prod": "webpack serve --env port=3000 --env mode=production",
     "start:dev:server": "node ./json-server/index.js",
@@ -19,6 +20,7 @@
     "unit": "jest --config ./config/jest/jest.config.ts",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
     "storybook:build": "storybook build -c ./config/storybook",
+    "pre-commit:test": "npm run lint:css:fix && npm run lint:ts:fix",
     "test:ui": "loki test",
     "test:ui:report": "npm run test:ui:json && npm run test:ui:html",
     "test:ui:json": "node scripts/generate-visual-json-report.js",

@@ -4,7 +4,7 @@ import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { LangSwitcher } from 'shared/ui/LangSwitcher';
 import AppLink from 'shared/ui/AppLink/AppLink';
-import {FaHome, FaInfoCircle} from 'react-icons/fa';
+import { FaHome, FaInfoCircle } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import cls from './Sidebar.module.css';
 
@@ -39,7 +39,7 @@ export const Sidebar = ({ className, isCollapsed = true }: SidebarProps) => {
                     </span>
                 </AppLink>
                 <AppLink className={cls.Links} to="/about">
-                    <FaInfoCircle  size="24px" />
+                    <FaInfoCircle size="24px" />
                     <span>
                         {t('AboutLink')}
                     </span>

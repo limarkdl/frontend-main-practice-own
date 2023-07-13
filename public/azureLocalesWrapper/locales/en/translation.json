@@ -1,16 +1,17 @@
 {
-  "NameLogo": "IKostin",
-  "MainLink": "Main",
   "AboutLink": "About us",
-  "MainPage": "Main page",
+  "Authorization": "Authorization",
   "BugBt": "Crash",
-  "PageErrorMessage": "Something went wrong",
-  "PageErrorApologizing": "We apologize for any inconvenience caused",
-  "PageErrorTryAgain": "Reload page",
-  "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Page not found",
   "DebugTools": "DebugTools:",
   "Log_in": "Log in",
-  "Log_in_Btn": "Log in",
-  "Authorization": "Authorization"
+  "MainLink": "Main",
+  "MainPage": "Main page",
+  "NameLogo": "IKostin",
+  "NotFoundPageText": "Page not found",
+  "PageErrorApologizing": "We apologize for any inconvenience caused",
+  "PageErrorMessage": "Something went wrong",
+  "PageErrorTryAgain": "Reload page",
+  "SidebarToggleBt": ">>>",
+  "password": "Password",
+  "username": "Username"
 }

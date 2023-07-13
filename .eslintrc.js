@@ -49,6 +49,12 @@ module.exports = {
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error',
         'no-param-reassign': 'off',
+        'jsx-a11y/label-has-associated-control': [2, {
+            required: {
+                some: ['nesting', 'id'],
+            },
+        }],
+        'jsx-a11y/label-has-for': 'off',
     },
     globals: {
         __IS_DEV__: true,

@@ -3,7 +3,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { FaMoon, FaLightbulb } from 'react-icons/fa';
-import {FaDroplet} from "react-icons/fa6";
+import { FaDroplet } from 'react-icons/fa6';
 
 interface ThemeSwitcherProps {
     className?: string;
@@ -25,7 +25,7 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                 ? (
                     <>
                         <FaLightbulb
-                            style={{opacity: 0.5}}
+                            style={{ opacity: 0.5 }}
                         />
                     &nbsp;|&nbsp;
                         <FaMoon />
@@ -58,8 +58,7 @@ const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
                             style={{ opacity: 0.5 }}
                         />
                         <br />
-                        <FaDroplet
-                        />
+                        <FaDroplet />
                     </>
                 )}
         </Button>
