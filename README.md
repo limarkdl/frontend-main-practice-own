@@ -1,21 +1,27 @@
-# UCLan Merch Shop Challenge: A Journey of Exploration and Learning
+# UCLan Merch Shop Challenge: A Journey of Exploration and Learning 🚀
 
-🚀 Greetings, and welcome to my ambitious project for this summer break, a testament to my foray into full-stack development: the UCLan Merch Shop Challenge. This venture isn't about producing a typical educational project, but rather a hands-on attempt to create an application of the highest quality that I, as a beginner, can deliver. My goal is to learn, explore, and experiment with modern web development practices, ultimately creating an optimized and scalable e-commerce merch shop.
+Greetings! Welcome to my ambitious project for this summer break, the UCLan Merch Shop Challenge. This is not your typical educational project but rather a testament to my foray into full-stack development and an attempt to create a high-quality application.
 
-This journey started when the university's educational training servers went down, presenting me with a challenge and an opportunity to step outside my comfort zone. The obstacle led me to delve into the capabilities of Microsoft Azure and broaden my knowledge base and skill set. 💻
+## 📝 _About the Project_
+The UCLan Merch Shop project was inspired by an assignment in my Web Technology module during my second year. With this project, I aim to revisit that assignment but with more advanced skills and a keen interest in web technology.
 
-The inspiration for the UCLan Merch Shop project stems from an assignment in my Web Technology module during my second year. While my initial attempt did not quite meet my expectations, it sparked a deep interest and appreciation for web technology in me. With this project, I intend to revisit that assignment, but this time with a new perspective, advanced skills, and a fervor to dive deep into the vast ocean of web development. This journey represents a second chance, a platform to not only deliver my best but also to learn, grow, and experiment with new, exciting technologies and methodologies in the field. It is a testament to the adage: learning never stops, and every challenge is an opportunity to do better. 🌟🚀
+## 🌟 _Goal and Duration_
+My goal over the next three months is to build a robust, production-ready system complete with a fully configured project infrastructure and test environment. The project aims to reflect my progress and learning through a detailed git commit history.
 
-The project spans across three months and is driven by a deep-seated desire to learn and grow. I aim to build a robust, ready-for-production system, complete with a fully-configured project infrastructure and test environment. My progression is documented meticulously through a detailed git commit history. 🛠️🔧
+## 💻 _Technologies Used_
+The core technologies in this project include React for the front-end and PHP and MySQL for the back-end. The project will also involve a deep dive into a range of development techniques like configurations, testing techniques, data normalization, error management, internationalization (i18n), TypeScript, Babel, and more.
 
-The technologies at the core of this project include React for the front-end and PHP and MySQL for the back-end. But the learning extends far beyond these. This endeavor serves as a deep-dive into a broad range of development techniques, such as configurations, testing techniques, data normalization, error management, internationalization (i18n), TypeScript, Babel, and more. 🌍👏
+## 📚 _What I'll be Learning_
+I'll explore project configuration with Webpack, React, TypeScript, Babel, and more. The project will touch on critical aspects of software architecture, performance optimization, CSS modules, theming, unit and E2E testing, linting, error handling, routing, Redux-based data handling, CI/CD setup, and pre-commit hooks.
 
-I will explore project configuration with Webpack, React, TypeScript, Babel, and more, in addition to constructing over 20 UI components. The project will touch on critical aspects of software architecture, performance optimization, CSS modules, theming, unit and E2E testing, linting, error handling, routing, Redux-based data handling, CI/CD setup, and pre-commit hooks. 🔍📚
+## 🔬 _Emphasis on Testing_
+This project places a strong emphasis on testing. I'll set up a Storybook from scratch and implement screenshot tests, unit tests, and E2E tests. Linting with eslint and stylelint, along with code formatting with Prettier, will be explored.
 
-This project heavily emphasizes testing. I'll set up a Storybook from scratch and implement screenshot tests, unit tests, and E2E tests. Linting with eslint and stylelint, along with code formatting with Prettier, will be explored. Aspects such as error management, data normalization, virtualization, infrastructure setup, and the refinement of the development process will be integral parts of this learning journey. 💡🔬
+## 🚀 _Feature-Sliced Design (FSD)_
+A standout aspect of this project is the adoption of Feature-Sliced Design (FSD), a relatively new approach in front-end architectures that structures the project based on its business domains. I aim to learn and apply FSD and evaluate its potential advantages and drawbacks.
 
-In addition, a standout aspect of this project is the adoption of Feature-Sliced Design (FSD). This is a relatively new approach in the landscape of front-end architectures, but it shows great promise. The core idea behind FSD is to structure the project based on its business domains, creating a highly scalable and maintainable codebase. By utilizing FSD, I aim to not only learn and apply this modern methodology, but also evaluate its potential advantages and drawbacks in a real-world project scenario. This further underscores the exploratory and experimental spirit of the UCLan Merch Shop Challenge. 🚀🌐
+## 🌐 _Complex Topics_
+The journey will take me through complex topics like migrating to React 18, handling ring dependencies, setting up alternative bundling with Vite, automated refactoring, and more. The deployment process, including working with a cloud server, setting up Nginx, managing HTTPS, and domain names will also be part of this exploration.
 
-Furthermore, the journey will take me through complex topics like migrating to React 18, handling ring dependencies, setting up alternative bundling with Vite, automated refactoring, and much more. The deployment process, including working with a cloud server, setting up Nginx, managing HTTPS, and domain names will also be a part of this exploration. 🏁🚀
-
-This project is my step towards becoming a proficient full-stack developer. It's a testimony to my learning, my progress, and the practical skills that I'm gaining. This summer, join me on this enlightening journey through the fascinating world of full-stack development as I turn the challenge into an opportunity to learn, explore, and grow! 🌟🔥
+## 🔥 _Conclusion_
+This project is another step towards the web developing. It's a testimony to my learning, my progress, and the practical skills that I'm gaining. Good luck to me!
