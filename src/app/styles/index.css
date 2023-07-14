@@ -17,7 +17,6 @@ a {
 .app {
     background: var(--bg-color);
     color: var(--inverted-primary-color);
-    min-height: 100vh;
     min-height: 100dvh !important;
     font-size: var(--font-size-m);
     transition: color var(--color-animation-duration) ease, background var(--color-animation-duration) ease;
