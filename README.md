@@ -1,6 +1,6 @@
-# UCLan Merch Shop Challenge: A Journey of Exploration and Learning 🚀
+# UCLan Merch Shop 🚀
 
-Greetings! Welcome to my ambitious project for this summer break, the UCLan Merch Shop Challenge. This is not your typical educational project but rather a testament to my foray into full-stack development and an attempt to create a high-quality application.
+Greetings! Welcome to my ambitious project for this summer break, the UCLan Merch Shop Challenge. This is a testament to my attempts at full-stack development and an attempt to create a high-quality application.
 
 ## 📝 _About the Project_
 The UCLan Merch Shop project was inspired by an assignment in my Web Technology module during my second year. With this project, I aim to revisit that assignment but with more advanced skills and a keen interest in web technology.
