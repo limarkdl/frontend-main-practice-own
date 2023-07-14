@@ -20,6 +20,7 @@ const MainPage = () => {
                     </Button>
                 </AppLink>
             </div>
+
         </div>
     );
 };

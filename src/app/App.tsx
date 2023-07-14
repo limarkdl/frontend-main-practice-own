@@ -5,6 +5,7 @@ import { AppRouter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Suspense } from 'react';
 import { Sidebar } from 'widgets/Sidebar';
+import { PageLoader } from 'shared/ui/PageLoader';
 
 const App = () => {
     const { theme } = useTheme();
