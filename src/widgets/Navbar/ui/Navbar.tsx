@@ -4,6 +4,7 @@ import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { useCallback, useState } from 'react';
 import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.css';
+import Logo from 'shared/assets/UCLan_Logo.svg';
 
 interface NavbarProps {
     className?: string;
@@ -25,13 +26,8 @@ const Navbar = ({ className }: NavbarProps) => {
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
             <div className={cls.name}>
-                <img
-                    src="https://limarkdluclanshopstatic.blob.core.windows.net/public/logo.png"
-                    alt="Logo"
-                    height="100%"
-                    width="auto"
-                />
-
+                <Logo />
+ 
             </div>
 
             <Button

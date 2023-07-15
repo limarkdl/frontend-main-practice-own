@@ -7,5 +7,9 @@
     --secondary-color: #ffffff;
     --inverted-primary-color: #e3dfdf;
     --inverted-secondary-color: #007FB0;
+
+    #UCLan_Logo_svg__UCLan_Logo_By_LIMARKDL {
+        --shield: #ffffff !important;
+    }
 }
 

@@ -5,7 +5,7 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    padding: 0 25px;
+    padding: 0 24px 0 16px;
     background: var(--inverted-bg-color);
     transition: var(--color-animation-duration) ;
 }
@@ -15,7 +15,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 75%;
+    height: 95%;
+    margin-bottom: 5px;
     font-size: var(--font-size-l);
     line-height: var(--font-line-l);
     color: var(--primary-color);

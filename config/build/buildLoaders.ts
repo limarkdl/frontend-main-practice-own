@@ -7,7 +7,7 @@ export function buildLoaders(
 ): webpack.RuleSetRule[] {
     const svgLoader = {
         test: /\.svg$/,
-        use: ['@svgr/webpack', 'url-loader'],
+        use: ['@svgr/webpack'],
     };
 
     const babelLoader = {
