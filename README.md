@@ -25,3 +25,10 @@ The journey will take me through complex topics like migrating to React 18, hand
 
 ## 🔥 _Conclusion_
 This project is another step towards the web developing. It's a testimony to my learning, my progress, and the practical skills that I'm gaining. Good luck to me!
+
+<details><summary><h2>Some extra stuff which was made during process of development</h2></summary>
+<h4>SVG logo of my university (Adobe Illustrator), fully customizable by CSS Variables for flexible theme applying: </h4>
+
+![ezgif-3-5ce0cffd68](https://github.com/limarkdl-private/uclan-merch-shop/assets/116545670/5565b180-3c6b-454d-94a9-65f68a9d2d54)
+
+</details>
