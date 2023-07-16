@@ -36,10 +36,12 @@ The journey will take me through complex topics like migrating to React 18, hand
 This project is another step towards the web developing. It's a testimony to my learning, my progress, and the practical skills that I'm gaining. Good luck to me!
 
 <details><summary><h2>Some extra made stuff:</h2></summary>
-<h4>SVG logo of my university (made via Adobe Illustrator). Since original logo looks bad on some backgrounds, I've decided to create from scratch a fully customizable by CSS Variables logo for flexible themes applying and color controlling: </h4>
-(src/shared/assets/UCLan_Logo.svg)
   
 ![ezgif-3-5ce0cffd68](https://github.com/limarkdl-private/uclan-merch-shop/assets/116545670/5565b180-3c6b-454d-94a9-65f68a9d2d54)
+
+> (src/shared/assets/UCLan_Logo.svg)
+> 
+> SVG logo of my university (made via Adobe Illustrator). Since original logo looks bad on some backgrounds, I've decided to create from scratch a fully customizable by CSS Variables logo for flexible themes applying and color controlling.
 
 
 </details>
