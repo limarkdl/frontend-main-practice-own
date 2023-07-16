@@ -2,9 +2,8 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import CopyPlugin from 'copy-webpack-plugin';
+import path from 'path';
 import { BuildOptions } from './types/config';
-import path from "path";
-
 const miniCssExtractOptions = {
     filename: 'css/[name].[contenthash:8].css',
     chunkFilename: 'css/[name].[contenthash:8].chunk.css',
@@ -26,7 +25,7 @@ export function buildPlugins({ paths, isDevelopment, basenameString }: BuildOpti
         new webpack.HotModuleReplacementPlugin(),
         new CopyPlugin({
             patterns: [
-                { from: path.resolve(__dirname, 'public'), to: '', globOptions: { ignore: ['**/index.html'] } },
+                { from: paths.locales, to: '', globOptions: { ignore: ['**/index.html'] } },
             ],
         }),
     ];
