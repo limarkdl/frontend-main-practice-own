@@ -38,7 +38,7 @@ jobs:
       - name: Double-check for catalogues
         run: | 
           ls ./build
-          tree -I 'node_modules'
+          tree -I node_modules
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2

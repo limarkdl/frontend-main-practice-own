@@ -25,7 +25,7 @@ export function buildPlugins({ paths, isDevelopment, basenameString }: BuildOpti
         new webpack.HotModuleReplacementPlugin(),
         new CopyPlugin({
             patterns: [
-                { from: 'public', to: '', globOptions: { ignore: ['**/index.html'] } },
+                { from: paths.locales, to: '', globOptions: { ignore: ['**/index.html'] } },
             ],
         }),
     ];

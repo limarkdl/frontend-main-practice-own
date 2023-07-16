@@ -8,6 +8,7 @@ export default ({ config }: {config: webpack.Configuration}) => {
         htmlTemplate: '',
         entry: '',
         src: path.resolve(__dirname, '..', '..', 'src'),
+        locales: '',
     };
     config.resolve.modules.push(paths.src);
     config.resolve.extensions.push('.ts', '.tsx');

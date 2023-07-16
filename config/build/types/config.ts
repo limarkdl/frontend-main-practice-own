@@ -7,6 +7,7 @@ export interface BuildPaths {
     build: string;
     htmlTemplate: string;
     src: string;
+    locales: string;
 }
 
 export interface BuildOptions {
