@@ -1,0 +1,17 @@
+{
+  "AboutLink": "À propos",
+  "Authorization": "Autorisation",
+  "BugBt": "Écrasement",
+  "DebugTools": "Outils de débogage:",
+  "Log_in": "Connexion",
+  "MainLink": "Principal",
+  "MainPage": "Page d'accueil",
+  "NameLogo": "IKostin",
+  "NotFoundPageText": "La page que vous avez demandée n'a pas été trouvée",
+  "PageErrorApologizing": "Nous nous excusons pour tout désagrément causé",
+  "PageErrorMessage": "Quelque chose a mal tourné",
+  "PageErrorTryAgain": "Recharger la page",
+  "SidebarToggleBt": ">>>",
+  "password": "Mot de passe",
+  "username": "Nom d'utilisateur"
+}
