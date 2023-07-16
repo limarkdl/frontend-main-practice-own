@@ -6,7 +6,7 @@
 " target="_blank">https://limarkdl-uclan-merch-shop.azurewebsites.net
 </a>
 
-<img src="https://github.com/limarkdl-private/uclan-merch-shop/assets/116545670/dc5f6f8d-7d81-4730-afbb-e752b641b36b" width="533" height="300"/>
+<img src="https://github.com/limarkdl-private/uclan-merch-shop/assets/116545670/dc5f6f8d-7d81-4730-afbb-e752b641b36b" width="100%"/>
 </details>
 
 Greetings! Welcome to my ambitious project for this summer break, the UCLan Merch Shop Challenge. This is a testament to my attempts at full-stack development and an attempt to create a high-quality application.
