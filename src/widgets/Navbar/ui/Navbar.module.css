@@ -23,3 +23,10 @@
     transition-duration: var(--color-animation-duration);
 }
 
+path > .logo2_svg__st0 {
+    fill: #32cd32 !important;
+}
+
+.logo2_svg__st1 {
+    fill: #313131 !important;
+}

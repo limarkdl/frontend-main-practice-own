@@ -69,18 +69,18 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_29E5DCC69AC7470D8F700A00DE71BDDB }}
           package: './'
 
-  upload_to_blob:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-      - name: Upload to blob
-        uses: azure/CLI@v1
-        with:
-          inlineScript:
-            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_LIMARKDLUCLANSHOPSTATIC_BLOB_ACCESS_KEY}} --destination public --source ./public/azureLocalesWrapper --type block --overwrite
-      - name: Log out
-        run: az logout
+#  upload_to_blob:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - uses: azure/login@v1
+#        with:
+#          creds: ${{ secrets.AZURE_CREDENTIALS }}
+#
+#      - name: Upload to blob
+#        uses: azure/CLI@v1
+#        with:
+#          inlineScript:
+#            az storage blob upload-batch --account-name limarkdluclanshopstatic --account-key ${{ secrets.AZURE_LIMARKDLUCLANSHOPSTATIC_BLOB_ACCESS_KEY}} --destination public --source ./public/azureLocalesWrapper --type block --overwrite
+#      - name: Log out
+#        run: az logout

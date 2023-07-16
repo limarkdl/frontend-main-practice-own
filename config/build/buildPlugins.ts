@@ -1,7 +1,7 @@
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import webpack from 'webpack';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
-import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
+import CopyPlugin from 'copy-webpack-plugin';
 import { BuildOptions } from './types/config';
 
 const miniCssExtractOptions = {
@@ -23,5 +23,10 @@ export function buildPlugins({ paths, isDevelopment, basenameString }: BuildOpti
             __BASENAME__: JSON.stringify(basenameString),
         }),
         new webpack.HotModuleReplacementPlugin(),
+        new CopyPlugin({
+            patterns: [
+                { from: 'public', to: '', globOptions: { ignore: ['**/index.html'] } },
+            ],
+        }),
     ];
 }

@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { useCallback, useState } from 'react';
 import { LoginModal } from 'features/AuthByUsername';
-import cls from './Navbar.module.css';
 import Logo from 'shared/assets/UCLan_Logo.svg';
+import cls from './Navbar.module.css';
 
 interface NavbarProps {
     className?: string;
@@ -27,7 +27,7 @@ const Navbar = ({ className }: NavbarProps) => {
         <div className={classNames(cls.Navbar, {}, [className])}>
             <div className={cls.name}>
                 <Logo />
- 
+
             </div>
 
             <Button
