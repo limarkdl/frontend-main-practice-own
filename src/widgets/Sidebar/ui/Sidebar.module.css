@@ -27,7 +27,7 @@
     opacity: 1;
     width: fit-content;
     margin-left: 10px;
-    transition: width 0.3s ease, opacity 0.2s ease, visibility 0.3s ease;
+    transition: width 0.15s ease, opacity 0.15s ease, visibility 0.2s ease;
 
 }
 
