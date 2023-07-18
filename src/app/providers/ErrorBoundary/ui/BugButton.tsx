@@ -25,9 +25,7 @@ const BugButton = ({ className }: BugButtonProps) => {
     return (
         <div className={classNames('', {}, [className])}>
             <Button onClick={throwError} theme={ButtonTheme.PRIMARY}>
-                {/* eslint-disable-next-line i18next/no-literal-string */}
                 {t('BugBt')}
-                &nbsp; / ErrorBoundary
             </Button>
         </div>
     );

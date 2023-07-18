@@ -13,3 +13,11 @@
     --shield: #ffffff;
 }
 
+.app_light_theme .react-loading-skeleton {
+    --base-color: #cacaca;
+    --highlight-color: #e8e8e8;
+    --animation-duration: 1.5s;
+    --animation-direction: normal;
+    --pseudo-element-display: block;
+    background-color: var(--base-color);
+}

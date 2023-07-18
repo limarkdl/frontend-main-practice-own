@@ -13,7 +13,14 @@ const AboutPage = () => {
             <h1>{t('AboutPage')}</h1>
             <Separator />
 
-            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescription')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionWelcome')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionMission')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionHistory')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionPartnership')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionSustainability')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionStory')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionAudience')}</p>
+            <p style={{ marginBottom: '20px' }}>{t('AboutPageDescriptionEnding')}</p>
             <a
                 target="_blank"
                 href="https://github.com/limarkdl-private/frontend-main-practice-own"

@@ -12,3 +12,9 @@
 .app_dark_blue_theme #UCLan_Logo_svg__Shield_1_ {
     --shield: #ffffff;
 }
+
+.app_dark_blue_theme .react-loading-skeleton {
+    --base-color: #666;
+    --highlight-color: #4f4f4f;
+    background-color: #666;
+}
