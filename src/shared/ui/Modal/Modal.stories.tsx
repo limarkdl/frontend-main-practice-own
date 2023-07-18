@@ -19,7 +19,7 @@ export const ModalEl: Story = {
     },
 
 };
-ModalEl.decorators = [ThemeDecorator(Theme.LIGHT)]
+ModalEl.decorators = [ThemeDecorator(Theme.LIGHT)];
 
 export const ModalElDark: Story = {
     name: 'Modal Dark',
@@ -29,14 +29,14 @@ export const ModalElDark: Story = {
     },
 
 };
-ModalElDark.decorators = [ThemeDecorator(Theme.DARK)]
+ModalElDark.decorators = [ThemeDecorator(Theme.DARK)];
 
-export const ModalElCarrot: Story = {
-    name: 'Modal Carrot',
+export const ModalElDarkBlue: Story = {
+    name: 'Modal Dark Blue',
     args: {
         isOpen: true,
         children: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, aliquid animi aperiam consectetur dicta dolorum ex exercitationem explicabo fugit laudantium molestiae nihil nisi nobis numquam quis similique ut veritatis voluptates.\n',
     },
 
 };
-ModalElCarrot.decorators = [ThemeDecorator(Theme.CARROT)]
+ModalElDarkBlue.decorators = [ThemeDecorator(Theme.DARK_BLUE)];

@@ -11,6 +11,7 @@ interface ModalProps {
     children?: ReactNode;
     isOpen?: boolean;
     onClose?: () => void;
+    lazy?: boolean;
 }
 
 export const Modal = (props: ModalProps) => {
@@ -19,9 +20,11 @@ export const Modal = (props: ModalProps) => {
         children,
         isOpen,
         onClose,
+        lazy,
     } = props;
 
     const [isClosing, setIsClosing] = useState(false);
+    const [isMounted, setIsMounted] = useState(false);
     const timerRef = useRef<ReturnType<typeof setTimeout>>();
     const { theme } = useTheme();
 
@@ -61,12 +64,23 @@ export const Modal = (props: ModalProps) => {
         [cls.isClosing]: isClosing,
     };
 
+    useEffect(() => {
+        if (isOpen) {
+            setIsMounted(true);
+        }
+    }, [isOpen]);
+
+    if (lazy && !isMounted) {
+        return null;
+    }
+
     return (
         <Portal>
             <div data-testid="modal" className={classNames(cls.Modal, mods, [className, theme])}>
                 <div className={cls.Overlay} onClick={closeHandler}>
                     <div className={cls.Content} onClick={onContentClick}>
                         {children}
+                        {/* eslint-disable-next-line i18next/no-literal-string */}
                         <div className={cls.CloseButton} onClick={closeHandler}>X</div>
                     </div>
                 </div>

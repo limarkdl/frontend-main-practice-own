@@ -1,16 +1,17 @@
 {
-  "NameLogo": "IKostin",
-  "MainLink": "Haupt",
   "AboutLink": "Über uns",
-  "MainPage": "Hauptseite",
+  "Authorization": "Genehmigung",
   "BugBt": "Absturz",
-  "PageErrorMessage": "Etwas ist schief gelaufen",
+  "DebugTools": "Debug-Tools:",
+  "Log_in": "Anmelden",
+  "MainLink": "Haupt",
+  "MainPage": "Hauptseite",
+  "NameLogo": "IKostin",
+  "NotFoundPageText": "Seite nicht gefunden",
   "PageErrorApologizing": "Wir entschuldigen uns für die Unannehmlichkeiten",
+  "PageErrorMessage": "Etwas ist schief gelaufen",
   "PageErrorTryAgain": "Seite neu laden",
   "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Seite nicht gefunden",
-  "DebugTools": "Debug-Tools:",
-  "Log_in": "Anmeldung",
-  "Log_in_Btn": "Anmeldung",
-  "Authorization": "Genehmigung"
+  "password": "Passwort",
+  "username": "Benutzer"
 }

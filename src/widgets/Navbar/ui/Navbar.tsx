@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Button, { ButtonTheme } from 'shared/ui/Button/Button';
 import { useCallback, useState } from 'react';
 import { LoginModal } from 'features/AuthByUsername';
+import Logo from 'shared/assets/UCLan_Logo.svg';
 import cls from './Navbar.module.css';
-
 
 interface NavbarProps {
     className?: string;
@@ -25,13 +25,15 @@ const Navbar = ({ className }: NavbarProps) => {
 
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
-            <h2 className={cls.name}>
-                IKostin
-            </h2>
+            <div className={cls.name}>
+                <Logo />
+
+            </div>
 
             <Button
                 theme={ButtonTheme.CLEAR_INVERTED}
                 onClick={onShowModal}
+                style={{ marginRight: '-16px' }}
             >
                 {t('Log_in')}
             </Button>

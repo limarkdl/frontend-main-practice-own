@@ -1,16 +1,17 @@
 {
-  "NameLogo": "IKostin",
-  "MainLink": "Principal",
   "AboutLink": "Acerca de",
-  "MainPage": "Página principal",
+  "Authorization": "Autorización",
   "BugBt": "Colapso",
-  "PageErrorMessage": "Algo salió mal",
+  "DebugTools": "Herramientas de depuración:",
+  "Log_in": "Iniciar sesión",
+  "MainLink": "Principal",
+  "MainPage": "Página principal",
+  "NameLogo": "IKostin",
+  "NotFoundPageText": "Página no encontrada",
   "PageErrorApologizing": "Pedimos disculpas por cualquier inconveniente causado",
+  "PageErrorMessage": "Algo salió mal",
   "PageErrorTryAgain": "Recargar página",
   "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Página no encontrada",
-  "DebugTools": "Herramientas de depuración:",
-  "Log_in": "Acceso",
-  "Log_in_Btn": "Acceso",
-  "Authorization": "Autorización"
+  "password": "Contraseña",
+  "username": "Nombre de usuario"
 }

@@ -1,4 +1,5 @@
 {
   "AboutPage": "Acerca de",
-  "AboutPageDescription": "Creo este proyecto en paralelo con el curso y lo modifico de todas las formas posibles,\n\nUtilizo soluciones más elegantes y modernas que las que ofrece el curso.\n\nTentativamente, tengo que revisarlo y resolverlo dentro de 2 meses, el resultado debe ser un producto completo.\n\nAl final del curso, planeo tomar un curso sobre React Native y hacer una aplicación móvil basada en este proyecto."
+  "AboutPageDescription": "Creo este proyecto en paralelo con el curso y lo modifico de todas las formas posibles,\n\nUtilizo soluciones más elegantes y modernas que las que ofrece el curso.\n\nTentativamente, tengo que revisarlo y resolverlo dentro de 2 meses, el resultado debe ser un producto completo.\n\nAl final del curso, planeo tomar un curso sobre React Native y hacer una aplicación móvil basada en este proyecto.",
+  "usedTechnologies": "Tecnologías y conceptos ya utilizados:"
 }

@@ -23,7 +23,7 @@ export const NavbarElDark: Story = {
 };
 NavbarElDark.decorators = [ThemeDecorator(Theme.DARK)];
 
-export const NavbarElCarrot: Story = {
-    name: 'Navbar Carrot',
+export const NavbarElDarkBlue: Story = {
+    name: 'Navbar Dark Blue',
 };
-NavbarElCarrot.decorators = [ThemeDecorator(Theme.CARROT)];
+NavbarElDarkBlue.decorators = [ThemeDecorator(Theme.DARK_BLUE)];

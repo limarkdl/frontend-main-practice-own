@@ -8,6 +8,7 @@ export default (env: BuildEnv) => {
         build: path.resolve(__dirname, 'build'),
         htmlTemplate: path.resolve(__dirname, 'public', 'index.html'),
         src: path.resolve(__dirname, 'src'),
+        locales: path.resolve(__dirname, 'public'),
     };
 
     const mode = env.mode || 'development';
@@ -16,13 +17,12 @@ export default (env: BuildEnv) => {
     // eslint-disable-next-line no-nested-ternary
     const basenameString = env.basenameMode === 'GithubPages'
         ? '/frontend-main-practice-own/'
+        // eslint-disable-next-line no-nested-ternary
         : env.basenameMode === 'Vesta'
             ? '/~ikostin/TestReactDeployment/'
             : env.basenameMode === 'Xampp' ? '/myProjects/UlbiTV/' : '';
 
     const isDevelopment = mode === 'development';
-
-    console.log(basenameString);
 
     return buildWebpackConfig({
         mode,

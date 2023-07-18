@@ -1,16 +1,17 @@
 {
-  "NameLogo": "IKostin",
-  "MainLink": "Κύριος",
   "AboutLink": "Για Εμάς",
-  "MainPage": "Κύρια σελίδα",
+  "Authorization": "Εξουσιοδότηση",
   "BugBt": "Σύγκρουση",
-  "PageErrorMessage": "Κάτι πήγε στραβά",
-  "PageErrorApologizing": "Απολογούμαστε για οποιαδήποτε ταλαιπωρία που προκλήθηκε",
-  "PageErrorTryAgain": "Επαναφόρτωση σελίδας",
-  "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Η σελίδα δεν βρέθηκε",
   "DebugTools": "Εργαλεία αποσφαλμάτωσης:",
   "Log_in": "Σύνδεση",
-  "Log_in_Btn": "Σύνδεση",
-  "Authorization": "Εξουσιοδότηση"
+  "MainLink": "Κύριος",
+  "MainPage": "Κύρια σελίδα",
+  "NameLogo": "IKostin",
+  "NotFoundPageText": "Η σελίδα δεν βρέθηκε",
+  "PageErrorApologizing": "Απολογούμαστε για οποιαδήποτε ταλαιπωρία που προκλήθηκε",
+  "PageErrorMessage": "Κάτι πήγε στραβά",
+  "PageErrorTryAgain": "Επαναφόρτωση σελίδας",
+  "SidebarToggleBt": ">>>",
+  "password": "Κωδικός πρόσβασης",
+  "username": "Όνομα χρήστη"
 }

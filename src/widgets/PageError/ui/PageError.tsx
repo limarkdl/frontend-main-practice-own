@@ -2,8 +2,8 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import Button from 'shared/ui/Button/Button';
 // import PageErrorIllustration from 'shared/assets/Group.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
+import { FaExclamationTriangle } from 'react-icons/fa';
+
 import cls from './PageError.module.css';
 
 interface PageErrorProps {
@@ -26,7 +26,7 @@ const PageError = ({ className }: PageErrorProps) => {
         >
             {/* <PageErrorIllustration /> */}
             <div className={cls.PageErrorContainer}>
-                <FontAwesomeIcon icon={faExclamationTriangle} size="5x" />
+                <FaExclamationTriangle size="100px" />
                 <h1 className={cls.ErrorMessage}>
                     {t('PageErrorMessage')}
                 </h1>

@@ -1,16 +1,17 @@
 {
-  "NameLogo": "IKostin",
-  "MainLink": "Peamine",
   "AboutLink": "Meist",
-  "MainPage": "Pealeht",
+  "Authorization": "Autoriseerimine",
   "BugBt": "Avarii",
-  "PageErrorMessage": "Midagi läks valesti",
-  "PageErrorApologizing": "Vabandame tekkinud ebamugavuste pärast",
-  "PageErrorTryAgain": "Lehe uuesti laadimine",
-  "SidebarToggleBt": ">>>",
-  "NotFoundPageText": "Lehte ei leitud",
   "DebugTools": "Debug tööriistad:",
   "Log_in": "Logi sisse",
-  "Log_in_Btn": "Logi sisse",
-  "Authorization": "Autoriseerimine"
+  "MainLink": "Peamine",
+  "MainPage": "Pealeht",
+  "NameLogo": "IKostin",
+  "NotFoundPageText": "Lehte ei leitud",
+  "PageErrorApologizing": "Vabandame tekkinud ebamugavuste pärast",
+  "PageErrorMessage": "Midagi läks valesti",
+  "PageErrorTryAgain": "Lehe uuesti laadimine",
+  "SidebarToggleBt": ">>>",
+  "password": "Parool",
+  "username": "Kasutajanimi"
 }
