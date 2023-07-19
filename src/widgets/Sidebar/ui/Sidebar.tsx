@@ -6,6 +6,7 @@ import { LangSwitcher } from 'shared/ui/LangSwitcher';
 import AppLink from 'shared/ui/AppLink/AppLink';
 import { FaHome, FaInfoCircle } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import { GrContactInfo } from 'react-icons/gr';
 import cls from './Sidebar.module.css';
 
 interface SidebarProps {
@@ -33,17 +34,22 @@ export const Sidebar = ({ className, isCollapsed = true }: SidebarProps) => {
             <div className={cls.Items}>
 
                 <AppLink className={cls.Links} to="/">
-                    <FaHome size="28px" />
+                    <div className={cls.IconContainer}>
+                        <FaHome size="28px" />
+                    </div>
                     <span>
                         {t('MainLink')}
                     </span>
                 </AppLink>
                 <AppLink className={cls.Links} to="/about">
-                    <FaInfoCircle size="24px" />
+                    <div className={cls.IconContainer}>
+                        <FaInfoCircle size="24px" />
+                    </div>
                     <span>
                         {t('AboutLink')}
                     </span>
                 </AppLink>
+
             </div>
             <Button theme={ButtonTheme.PRIMARY} className={cls.ToggleBt} onClick={onToggle}>
                 {collapsed ? '>' : '<'}

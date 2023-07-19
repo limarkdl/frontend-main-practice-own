@@ -1,5 +1,11 @@
 {
-  "AboutPage": "About us",
-  "AboutPageDescription": "I create this project in parallel with the course and modify it in every possible way,\n\nI use more elegant and modern solutions than the course offers.\n\nTentatively, I have to go through and figure it out within 2 months, the output should be a full-fledged product.\n\nAt the end of the course, I plan to take a course on React Native and make a mobile application based on this project.",
-  "usedTechnologies": "Already used technologies & concepts:"
+  "AboutPageDescriptionAudience": "Whether you're an incoming student looking to show your new school pride, a graduate wanting to hold onto your university days, or a faculty member proud to be part of the UCLan family, we have something for you.",
+  "AboutPageDescriptionEnding": "Welcome to UCLan Merch Shop. Wear your pride. Celebrate your story.",
+  "AboutPageDescriptionHistory": "Founded in 2023, the UCLan Merch Shop started as a small initiative to boost university spirit and quickly grew into a beloved part of the UCLan community. Today, we not only serve the local community in Preston but also reach out to UCLan alumni and supporters worldwide.",
+  "AboutPageDescriptionMission": "Our mission is to provide a way for students, alumni, faculty, and supporters to wear their UCLan pride on their sleeves, quite literally. From carefully designed hoodies that echo the vibrant campus life, to stylish accessories that add a hint of UCLan's heritage to your everyday, our collection is thoughtfully curated to ensure that every UCLan community member can find a piece of their university story in our products.",
+  "AboutPageDescriptionPartnership": "We work closely with the university to ensure that every piece of merchandise is not just a product, but a memento. Every purchase made at our shop supports UCLan's initiatives, aiding in various university programs that enhance student life and further academic research.",
+  "AboutPageDescriptionStory": "But we're not just about merchandise. We're about the memories that come with being a part of UCLan. Each of our products carries the stories of friendship, knowledge, and growth that are cultivated on UCLan's campus.",
+  "AboutPageDescriptionSustainability": "As we grow, we continue to focus on sustainability and ethical sourcing. We believe that we have a responsibility to our planet and are committed to making a difference through our actions. We ensure that all our merchandise is made from sustainable materials and produced under fair working conditions.",
+  "AboutPageDescriptionWelcome": "Welcome to UCLan Merch Shop, the official and exclusive merchandise destination for the University of Central Lancashire. We're a dedicated team of creators, designers, and makers who have come together with a singular goal: to celebrate the spirit of UCLan through quality merchandise.",
+  "AboutPageTitle": "About us"
 }

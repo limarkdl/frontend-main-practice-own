@@ -1,5 +1,5 @@
-import { AboutPageAsync } from './ui/AboutPage.async';
+import AboutPageWithSkeleton from './ui/AboutPage.async';
 
 export {
-    AboutPageAsync as AboutPage,
+    AboutPageWithSkeleton as AboutPage,
 };

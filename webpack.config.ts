@@ -19,7 +19,7 @@ export default (env: BuildEnv) => {
         ? '/frontend-main-practice-own/'
         // eslint-disable-next-line no-nested-ternary
         : env.basenameMode === 'Vesta'
-            ? '/~ikostin/TestReactDeployment/'
+            ? '/~ikostin/uclan-merch-shop/'
             : env.basenameMode === 'Xampp' ? '/myProjects/UlbiTV/' : '';
 
     const isDevelopment = mode === 'development';

@@ -13,8 +13,6 @@ const LanguageSwitcher = () => {
         { value: 'gr', label: 'GR' },
         { value: 'ru', label: 'RU' },
         { value: 'fr', label: 'FR' },
-        { value: 'et', label: 'ET' },
-        { value: 'es', label: 'ES' },
         { value: 'de', label: 'DE' },
     ];
 

@@ -14,10 +14,15 @@ a {
 }
 
 
+p {
+    text-align: justify;
+}
+
 .app {
     background: var(--bg-color);
     color: var(--inverted-primary-color);
     min-height: 100dvh !important;
+    min-width: 100dvw !important;
     font-size: var(--font-size-m);
     transition: color var(--color-animation-duration) ease, background var(--color-animation-duration) ease;
 }
@@ -45,7 +50,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
+    padding: 5px;
     min-width: calc(92vw - var(--sidebar-width-collapsed));
+}
+
+.skeletonFix {
+    flex: 1;
 }
 
 @media screen and (min-width: 1280px) {
@@ -66,4 +76,14 @@ a {
         --inverted-secondary-color: #9a9a9a !important;
     }
 
+}
+
+/* Universal breathing animation */
+@keyframes breathe {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
 }
