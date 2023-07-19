@@ -9,7 +9,8 @@ const MainPage = () => {
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <h1>{t('MainPage')}</h1>
+            <h1>{t('Slogan')}</h1>
+            <h1>{t('Slogan2part')}</h1>
             <Separator />
             <div style={{ display: 'flex', flexDirection: 'row', gap: '10px' }}>
                 <BugButton />
